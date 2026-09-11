@@ -1,0 +1,6020 @@
+[
+  {
+    "id": 100044,
+    "key": "printalphabet",
+    "name": "printalphabet",
+    "path": "/bahrain/bh-piscine/quest-02/printalphabet",
+    "difficulty": 0.75,
+    "level": 3,
+    "expectedFiles": [
+      "printalphabet/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune#2",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printalphabet/README.md",
+    "baseXp": 600
+  },
+  {
+    "id": 100043,
+    "key": "printreversealphabet",
+    "name": "printreversealphabet",
+    "path": "/bahrain/bh-piscine/quest-02/printreversealphabet",
+    "difficulty": 0.75,
+    "level": 4,
+    "expectedFiles": [
+      "printreversealphabet/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printreversealphabet/README.md",
+    "baseXp": 713
+  },
+  {
+    "id": 100037,
+    "key": "printdigits",
+    "name": "printdigits",
+    "path": "/bahrain/bh-piscine/quest-02/printdigits",
+    "difficulty": 0.75,
+    "level": 4,
+    "expectedFiles": [
+      "printdigits/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printdigits/README.md",
+    "baseXp": 713
+  },
+  {
+    "id": 100039,
+    "key": "isnegative",
+    "name": "isnegative",
+    "path": "/bahrain/bh-piscine/quest-02/isnegative",
+    "difficulty": 0.75,
+    "level": 4,
+    "expectedFiles": [
+      "isnegative.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/isnegative/README.md",
+    "baseXp": 713
+  },
+  {
+    "id": 100041,
+    "key": "printcomb",
+    "name": "printcomb",
+    "path": "/bahrain/bh-piscine/quest-02/printcomb",
+    "difficulty": 1,
+    "level": 4,
+    "expectedFiles": [
+      "printcomb.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--no-lit=\\d{3},"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printcomb/README.md",
+    "baseXp": 950
+  },
+  {
+    "id": 100042,
+    "key": "printcomb2",
+    "name": "printcomb2",
+    "path": "/bahrain/bh-piscine/quest-02/printcomb2",
+    "difficulty": 1,
+    "level": 4,
+    "expectedFiles": [
+      "printcomb2.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--no-lit=\\d{2}\\s"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printcomb2/README.md",
+    "baseXp": 950
+  },
+  {
+    "id": 100038,
+    "key": "printnbr",
+    "name": "printnbr",
+    "path": "/bahrain/bh-piscine/quest-02/printnbr",
+    "difficulty": 1.25,
+    "level": 5,
+    "expectedFiles": [
+      "printnbr.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printnbr/README.md",
+    "baseXp": 1375
+  },
+  {
+    "id": 100040,
+    "key": "printcombn",
+    "name": "printcombn",
+    "path": "/bahrain/bh-piscine/quest-02/printcombn",
+    "difficulty": 1.5,
+    "level": 5,
+    "expectedFiles": [
+      "printcombn.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printcombn/README.md",
+    "baseXp": 1650
+  },
+  {
+    "id": 100072,
+    "key": "pointone",
+    "name": "pointone",
+    "path": "/bahrain/bh-piscine/quest-03/pointone",
+    "difficulty": 0.75,
+    "level": 4,
+    "expectedFiles": [
+      "pointone.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/pointone/README.md",
+    "baseXp": 713
+  },
+  {
+    "id": 100073,
+    "key": "ultimatepointone",
+    "name": "ultimatepointone",
+    "path": "/bahrain/bh-piscine/quest-03/ultimatepointone",
+    "difficulty": 0.75,
+    "level": 5,
+    "expectedFiles": [
+      "ultimatepointone.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/ultimatepointone/README.md",
+    "baseXp": 825
+  },
+  {
+    "id": 100074,
+    "key": "divmod",
+    "name": "divmod",
+    "path": "/bahrain/bh-piscine/quest-03/divmod",
+    "difficulty": 1,
+    "level": 5,
+    "expectedFiles": [
+      "divmod.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/divmod/README.md",
+    "baseXp": 1100
+  },
+  {
+    "id": 100075,
+    "key": "ultimatedivmod",
+    "name": "ultimatedivmod",
+    "path": "/bahrain/bh-piscine/quest-03/ultimatedivmod",
+    "difficulty": 1,
+    "level": 5,
+    "expectedFiles": [
+      "ultimatedivmod.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/ultimatedivmod/README.md",
+    "baseXp": 1100
+  },
+  {
+    "id": 100079,
+    "key": "printstr",
+    "name": "printstr",
+    "path": "/bahrain/bh-piscine/quest-03/printstr",
+    "difficulty": 1,
+    "level": 5,
+    "expectedFiles": [
+      "printstr.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printstr/README.md",
+    "baseXp": 1100
+  },
+  {
+    "id": 100071,
+    "key": "strlen",
+    "name": "strlen",
+    "path": "/bahrain/bh-piscine/quest-03/strlen",
+    "difficulty": 1,
+    "level": 6,
+    "expectedFiles": [
+      "strlen.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/strlen/README.md",
+    "baseXp": 1250
+  },
+  {
+    "id": 100080,
+    "key": "swap",
+    "name": "swap",
+    "path": "/bahrain/bh-piscine/quest-03/swap",
+    "difficulty": 1,
+    "level": 6,
+    "expectedFiles": [
+      "swap.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/swap/README.md",
+    "baseXp": 1250
+  },
+  {
+    "id": 100081,
+    "key": "strrev",
+    "name": "strrev",
+    "path": "/bahrain/bh-piscine/quest-03/strrev",
+    "difficulty": 1,
+    "level": 6,
+    "expectedFiles": [
+      "strrev.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/strrev/README.md",
+    "baseXp": 1250
+  },
+  {
+    "id": 100076,
+    "key": "basicatoi",
+    "name": "basicatoi",
+    "path": "/bahrain/bh-piscine/quest-03/basicatoi",
+    "difficulty": 1,
+    "level": 6,
+    "expectedFiles": [
+      "basicatoi.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/basicatoi/README.md",
+    "baseXp": 1250
+  },
+  {
+    "id": 100077,
+    "key": "basicatoi2",
+    "name": "basicatoi2",
+    "path": "/bahrain/bh-piscine/quest-03/basicatoi2",
+    "difficulty": 1,
+    "level": 6,
+    "expectedFiles": [
+      "basicatoi2.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/basicatoi2/README.md",
+    "baseXp": 1250
+  },
+  {
+    "id": 100082,
+    "key": "atoi",
+    "name": "atoi",
+    "path": "/bahrain/bh-piscine/quest-03/atoi",
+    "difficulty": 1.25,
+    "level": 7,
+    "expectedFiles": [
+      "atoi.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/atoi/README.md",
+    "baseXp": 1750
+  },
+  {
+    "id": 100078,
+    "key": "sortintegertable",
+    "name": "sortintegertable",
+    "path": "/bahrain/bh-piscine/quest-03/sortintegertable",
+    "difficulty": 1.5,
+    "level": 7,
+    "expectedFiles": [
+      "sortintegertable.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/sortintegertable/README.md",
+    "baseXp": 2100
+  },
+  {
+    "id": 100222,
+    "key": "onlya",
+    "name": "onlya",
+    "path": "/bahrain/bh-piscine/checkpoint-01/onlya",
+    "difficulty": 2,
+    "level": 9,
+    "expectedFiles": [
+      "onlya/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlya/README.md",
+    "baseXp": 3400
+  },
+  {
+    "id": 100223,
+    "key": "onlyz",
+    "name": "onlyz",
+    "path": "/bahrain/bh-piscine/checkpoint-01/onlyz",
+    "difficulty": 2,
+    "level": 9,
+    "expectedFiles": [
+      "onlyz/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyz/README.md",
+    "baseXp": 3400
+  },
+  {
+    "id": 101128,
+    "key": "onlyf",
+    "name": "onlyf",
+    "path": "/bahrain/bh-piscine/checkpoint-01/onlyf",
+    "difficulty": 2,
+    "level": 9,
+    "expectedFiles": [
+      "onlyf/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyf/README.md",
+    "baseXp": 3400
+  },
+  {
+    "id": 101129,
+    "key": "only1",
+    "name": "only1",
+    "path": "/bahrain/bh-piscine/checkpoint-01/only1",
+    "difficulty": 2,
+    "level": 9,
+    "expectedFiles": [
+      "only1/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/only1/README.md",
+    "baseXp": 3400
+  },
+  {
+    "id": 101130,
+    "key": "onlyb",
+    "name": "onlyb",
+    "path": "/bahrain/bh-piscine/checkpoint-01/onlyb",
+    "difficulty": 2,
+    "level": 9,
+    "expectedFiles": [
+      "onlyb/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyb/README.md",
+    "baseXp": 3400
+  },
+  {
+    "id": 101131,
+    "key": "rectperimeter",
+    "name": "rectperimeter",
+    "path": "/bahrain/bh-piscine/checkpoint-01/rectperimeter",
+    "difficulty": 4,
+    "level": 9,
+    "expectedFiles": [
+      "rectperimeter.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rectperimeter/README.md",
+    "baseXp": 6800
+  },
+  {
+    "id": 101132,
+    "key": "countcharacter",
+    "name": "countcharacter",
+    "path": "/bahrain/bh-piscine/checkpoint-01/countcharacter",
+    "difficulty": 4,
+    "level": 9,
+    "expectedFiles": [
+      "countcharacter.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/countcharacter/README.md",
+    "baseXp": 6800
+  },
+  {
+    "id": 101133,
+    "key": "checknumber",
+    "name": "checknumber",
+    "path": "/bahrain/bh-piscine/checkpoint-01/checknumber",
+    "difficulty": 4,
+    "level": 9,
+    "expectedFiles": [
+      "checknumber.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/checknumber/README.md",
+    "baseXp": 6800
+  },
+  {
+    "id": 101134,
+    "key": "countalpha",
+    "name": "countalpha",
+    "path": "/bahrain/bh-piscine/checkpoint-01/countalpha",
+    "difficulty": 4,
+    "level": 9,
+    "expectedFiles": [
+      "countalpha.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/countalpha/README.md",
+    "baseXp": 6800
+  },
+  {
+    "id": 101135,
+    "key": "printif",
+    "name": "printif",
+    "path": "/bahrain/bh-piscine/checkpoint-01/printif",
+    "difficulty": 4,
+    "level": 9,
+    "expectedFiles": [
+      "printif.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printif/README.md",
+    "baseXp": 6800
+  },
+  {
+    "id": 101136,
+    "key": "printifnot",
+    "name": "printifnot",
+    "path": "/bahrain/bh-piscine/checkpoint-01/printifnot",
+    "difficulty": 4,
+    "level": 9,
+    "expectedFiles": [
+      "printifnot.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printifnot/README.md",
+    "baseXp": 6800
+  },
+  {
+    "id": 101137,
+    "key": "retainfirsthalf",
+    "name": "retainfirsthalf",
+    "path": "/bahrain/bh-piscine/checkpoint-01/retainfirsthalf",
+    "difficulty": 4,
+    "level": 9,
+    "expectedFiles": [
+      "retainfirsthalf.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/retainfirsthalf/README.md",
+    "baseXp": 6800
+  },
+  {
+    "id": 101138,
+    "key": "digitlen",
+    "name": "digitlen",
+    "path": "/bahrain/bh-piscine/checkpoint-01/digitlen",
+    "difficulty": 6,
+    "level": 9,
+    "expectedFiles": [
+      "digitlen.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/digitlen/README.md",
+    "baseXp": 10200
+  },
+  {
+    "id": 100892,
+    "key": "fishandchips",
+    "name": "fishandchips",
+    "path": "/bahrain/bh-piscine/checkpoint-01/fishandchips",
+    "difficulty": 6,
+    "level": 9,
+    "expectedFiles": [
+      "fishandchips.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fishandchips/README.md",
+    "baseXp": 10200
+  },
+  {
+    "id": 101140,
+    "key": "gcd",
+    "name": "gcd",
+    "path": "/bahrain/bh-piscine/checkpoint-01/gcd",
+    "difficulty": 6,
+    "level": 9,
+    "expectedFiles": [
+      "gcd.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/gcd/README.md",
+    "baseXp": 10200
+  },
+  {
+    "id": 101141,
+    "key": "hashcode",
+    "name": "hashcode",
+    "path": "/bahrain/bh-piscine/checkpoint-01/hashcode",
+    "difficulty": 6,
+    "level": 9,
+    "expectedFiles": [
+      "hashcode.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/hashcode/README.md",
+    "baseXp": 10200
+  },
+  {
+    "id": 101142,
+    "key": "lastword",
+    "name": "lastword",
+    "path": "/bahrain/bh-piscine/checkpoint-01/lastword",
+    "difficulty": 6,
+    "level": 9,
+    "expectedFiles": [
+      "lastword.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/lastword/README.md",
+    "baseXp": 10200
+  },
+  {
+    "id": 101143,
+    "key": "firstword",
+    "name": "firstword",
+    "path": "/bahrain/bh-piscine/checkpoint-01/firstword",
+    "difficulty": 6,
+    "level": 9,
+    "expectedFiles": [
+      "firstword.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/firstword/README.md",
+    "baseXp": 10200
+  },
+  {
+    "id": 101148,
+    "key": "printrevcomb",
+    "name": "printrevcomb",
+    "path": "/bahrain/bh-piscine/checkpoint-01/printrevcomb",
+    "difficulty": 6,
+    "level": 9,
+    "expectedFiles": [
+      "printrevcomb/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--no-lit=\\d{3},"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printrevcomb/README.md",
+    "baseXp": 10200
+  },
+  {
+    "id": 101144,
+    "key": "repeatalpha",
+    "name": "repeatalpha",
+    "path": "/bahrain/bh-piscine/checkpoint-01/repeatalpha",
+    "difficulty": 6,
+    "level": 9,
+    "expectedFiles": [
+      "repeatalpha.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/repeatalpha/README.md",
+    "baseXp": 10200
+  },
+  {
+    "id": 101146,
+    "key": "findprevprime",
+    "name": "findprevprime",
+    "path": "/bahrain/bh-piscine/checkpoint-01/findprevprime",
+    "difficulty": 8,
+    "level": 9,
+    "expectedFiles": [
+      "findprevprime.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/findprevprime/README.md",
+    "baseXp": 13600
+  },
+  {
+    "id": 101139,
+    "key": "cameltosnakecase",
+    "name": "cameltosnakecase",
+    "path": "/bahrain/bh-piscine/checkpoint-01/cameltosnakecase",
+    "difficulty": 8,
+    "level": 9,
+    "expectedFiles": [
+      "cameltosnakecase.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/cameltosnakecase/README.md",
+    "baseXp": 13600
+  },
+  {
+    "id": 101147,
+    "key": "thirdtimeisacharm",
+    "name": "thirdtimeisacharm",
+    "path": "/bahrain/bh-piscine/checkpoint-01/thirdtimeisacharm",
+    "difficulty": 8,
+    "level": 9,
+    "expectedFiles": [
+      "thirdtimeisacharm.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/thirdtimeisacharm/README.md",
+    "baseXp": 13600
+  },
+  {
+    "id": 101150,
+    "key": "weareunique",
+    "name": "weareunique",
+    "path": "/bahrain/bh-piscine/checkpoint-01/weareunique",
+    "difficulty": 8,
+    "level": 9,
+    "expectedFiles": [
+      "weareunique.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.Contains"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/weareunique/README.md",
+    "baseXp": 13600
+  },
+  {
+    "id": 101151,
+    "key": "itoa",
+    "name": "itoa",
+    "path": "/bahrain/bh-piscine/checkpoint-01/itoa",
+    "difficulty": 8,
+    "level": 9,
+    "expectedFiles": [
+      "itoa.go"
+    ],
+    "allowedFunctions": [
+      "len",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/itoa/README.md",
+    "baseXp": 13600
+  },
+  {
+    "id": 101152,
+    "key": "iscapitalized",
+    "name": "iscapitalized",
+    "path": "/bahrain/bh-piscine/checkpoint-01/iscapitalized",
+    "difficulty": 8,
+    "level": 9,
+    "expectedFiles": [
+      "iscapitalized.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/iscapitalized/README.md",
+    "baseXp": 13600
+  },
+  {
+    "id": 100894,
+    "key": "fromto",
+    "name": "fromto",
+    "path": "/bahrain/bh-piscine/checkpoint-01/fromto",
+    "difficulty": 8,
+    "level": 9,
+    "expectedFiles": [
+      "fromto.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fromto/README.md",
+    "baseXp": 13600
+  },
+  {
+    "id": 101153,
+    "key": "zipstring",
+    "name": "zipstring",
+    "path": "/bahrain/bh-piscine/checkpoint-01/zipstring",
+    "difficulty": 8,
+    "level": 9,
+    "expectedFiles": [
+      "zipstring.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/zipstring/README.md",
+    "baseXp": 13600
+  },
+  {
+    "id": 101158,
+    "key": "concatalternate",
+    "name": "concatalternate",
+    "path": "/bahrain/bh-piscine/checkpoint-01/concatalternate",
+    "difficulty": 10,
+    "level": 9,
+    "expectedFiles": [
+      "concatalternate.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/concatalternate/README.md",
+    "baseXp": 17000
+  },
+  {
+    "id": 101159,
+    "key": "reversestrcap",
+    "name": "reversestrcap",
+    "path": "/bahrain/bh-piscine/checkpoint-01/reversestrcap",
+    "difficulty": 10,
+    "level": 9,
+    "expectedFiles": [
+      "reversestrcap/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/reversestrcap/README.md",
+    "baseXp": 17000
+  },
+  {
+    "id": 100897,
+    "key": "concatslice",
+    "name": "concatslice",
+    "path": "/bahrain/bh-piscine/checkpoint-01/concatslice",
+    "difficulty": 10,
+    "level": 9,
+    "expectedFiles": [
+      "concatslice.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/concatslice/README.md",
+    "baseXp": 17000
+  },
+  {
+    "id": 101162,
+    "key": "inter",
+    "name": "inter",
+    "path": "/bahrain/bh-piscine/checkpoint-01/inter",
+    "difficulty": 10,
+    "level": 9,
+    "expectedFiles": [
+      "inter/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/inter/README.md",
+    "baseXp": 17000
+  },
+  {
+    "id": 101163,
+    "key": "union",
+    "name": "union",
+    "path": "/bahrain/bh-piscine/checkpoint-01/union",
+    "difficulty": 10,
+    "level": 9,
+    "expectedFiles": [
+      "union/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/union/README.md",
+    "baseXp": 17000
+  },
+  {
+    "id": 100896,
+    "key": "saveandmiss",
+    "name": "saveandmiss",
+    "path": "/bahrain/bh-piscine/checkpoint-01/saveandmiss",
+    "difficulty": 10,
+    "level": 9,
+    "expectedFiles": [
+      "saveandmiss.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/saveandmiss/README.md",
+    "baseXp": 17000
+  },
+  {
+    "id": 101164,
+    "key": "chunk",
+    "name": "chunk",
+    "path": "/bahrain/bh-piscine/checkpoint-01/chunk",
+    "difficulty": 10,
+    "level": 9,
+    "expectedFiles": [
+      "chunk.go"
+    ],
+    "allowedFunctions": [
+      "fmt.Println",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/chunk/README.md",
+    "baseXp": 17000
+  },
+  {
+    "id": 101165,
+    "key": "addprimesum",
+    "name": "addprimesum",
+    "path": "/bahrain/bh-piscine/checkpoint-01/addprimesum",
+    "difficulty": 10,
+    "level": 9,
+    "expectedFiles": [
+      "addprimesum/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/addprimesum/README.md",
+    "baseXp": 17000
+  },
+  {
+    "id": 101166,
+    "key": "fprime",
+    "name": "fprime",
+    "path": "/bahrain/bh-piscine/checkpoint-01/fprime",
+    "difficulty": 10,
+    "level": 9,
+    "expectedFiles": [
+      "fprime/main.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Atoi",
+      "os.Args",
+      "fmt.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fprime/README.md",
+    "baseXp": 17000
+  },
+  {
+    "id": 101167,
+    "key": "canjump",
+    "name": "canjump",
+    "path": "/bahrain/bh-piscine/checkpoint-01/canjump",
+    "difficulty": 10,
+    "level": 9,
+    "expectedFiles": [
+      "canjump.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/canjump/README.md",
+    "baseXp": 17000
+  },
+  {
+    "id": 100087,
+    "key": "iterativefactorial",
+    "name": "iterativefactorial",
+    "path": "/bahrain/bh-piscine/quest-04/iterativefactorial",
+    "difficulty": 1,
+    "level": 10,
+    "expectedFiles": [
+      "iterativefactorial.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/iterativefactorial/README.md",
+    "baseXp": 1850
+  },
+  {
+    "id": 100085,
+    "key": "recursivefactorial",
+    "name": "recursivefactorial",
+    "path": "/bahrain/bh-piscine/quest-04/recursivefactorial",
+    "difficulty": 1,
+    "level": 10,
+    "expectedFiles": [
+      "recursivefactorial.go"
+    ],
+    "allowedFunctions": [
+      "-no-for"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/recursivefactorial/README.md",
+    "baseXp": 1850
+  },
+  {
+    "id": 100088,
+    "key": "iterativepower",
+    "name": "iterativepower",
+    "path": "/bahrain/bh-piscine/quest-04/iterativepower",
+    "difficulty": 1,
+    "level": 10,
+    "expectedFiles": [
+      "iterativepower.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/iterativepower/README.md",
+    "baseXp": 1850
+  },
+  {
+    "id": 100086,
+    "key": "recursivepower",
+    "name": "recursivepower",
+    "path": "/bahrain/bh-piscine/quest-04/recursivepower",
+    "difficulty": 1,
+    "level": 10,
+    "expectedFiles": [
+      "recursivepower.go"
+    ],
+    "allowedFunctions": [
+      "-no-for"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/recursivepower/README.md",
+    "baseXp": 1850
+  },
+  {
+    "id": 100089,
+    "key": "fibonacci",
+    "name": "fibonacci",
+    "path": "/bahrain/bh-piscine/quest-04/fibonacci",
+    "difficulty": 1.25,
+    "level": 10,
+    "expectedFiles": [
+      "fibonacci.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fibonacci/README.md",
+    "baseXp": 2313
+  },
+  {
+    "id": 100090,
+    "key": "sqrt",
+    "name": "sqrt",
+    "path": "/bahrain/bh-piscine/quest-04/sqrt",
+    "difficulty": 1.25,
+    "level": 10,
+    "expectedFiles": [
+      "sqrt.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/sqrt/README.md",
+    "baseXp": 2313
+  },
+  {
+    "id": 100091,
+    "key": "isprime",
+    "name": "isprime",
+    "path": "/bahrain/bh-piscine/quest-04/isprime",
+    "difficulty": 1.25,
+    "level": 10,
+    "expectedFiles": [
+      "isprime.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/isprime/README.md",
+    "baseXp": 2313
+  },
+  {
+    "id": 100092,
+    "key": "findnextprime",
+    "name": "findnextprime",
+    "path": "/bahrain/bh-piscine/quest-04/findnextprime",
+    "difficulty": 1.25,
+    "level": 11,
+    "expectedFiles": [
+      "findnextprime.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/findnextprime/README.md",
+    "baseXp": 2500
+  },
+  {
+    "id": 100084,
+    "key": "eightqueens",
+    "name": "eightqueens",
+    "path": "/bahrain/bh-piscine/quest-04/eightqueens",
+    "difficulty": 1.75,
+    "level": 11,
+    "expectedFiles": [
+      "eightqueens.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "-cast",
+      "len",
+      "--no-lit=\\\\n[0-9]"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/eightqueens/README.md",
+    "baseXp": 3500
+  },
+  {
+    "id": 100116,
+    "key": "firstrune",
+    "name": "firstrune",
+    "path": "/bahrain/bh-piscine/quest-05/firstrune",
+    "difficulty": 1,
+    "level": 10,
+    "expectedFiles": [
+      "firstrune.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/firstrune/README.md",
+    "baseXp": 1850
+  },
+  {
+    "id": 100138,
+    "key": "lastrune",
+    "name": "lastrune",
+    "path": "/bahrain/bh-piscine/quest-05/lastrune",
+    "difficulty": 1,
+    "level": 10,
+    "expectedFiles": [
+      "lastrune.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/lastrune/README.md",
+    "baseXp": 1850
+  },
+  {
+    "id": 100166,
+    "key": "nrune",
+    "name": "nrune",
+    "path": "/bahrain/bh-piscine/quest-05/nrune",
+    "difficulty": 1,
+    "level": 10,
+    "expectedFiles": [
+      "nrune.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/nrune/README.md",
+    "baseXp": 1850
+  },
+  {
+    "id": 100117,
+    "key": "compare",
+    "name": "compare",
+    "path": "/bahrain/bh-piscine/quest-05/compare",
+    "difficulty": 1,
+    "level": 11,
+    "expectedFiles": [
+      "compare.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/compare/README.md",
+    "baseXp": 2000
+  },
+  {
+    "id": 100179,
+    "key": "alphacount",
+    "name": "alphacount",
+    "path": "/bahrain/bh-piscine/quest-05/alphacount",
+    "difficulty": 1,
+    "level": 11,
+    "expectedFiles": [
+      "alphacount.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/alphacount/README.md",
+    "baseXp": 2000
+  },
+  {
+    "id": 100167,
+    "key": "index",
+    "name": "index",
+    "path": "/bahrain/bh-piscine/quest-05/index",
+    "difficulty": 1,
+    "level": 11,
+    "expectedFiles": [
+      "index.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/index/README.md",
+    "baseXp": 2000
+  },
+  {
+    "id": 100176,
+    "key": "concat",
+    "name": "concat",
+    "path": "/bahrain/bh-piscine/quest-05/concat",
+    "difficulty": 1.25,
+    "level": 11,
+    "expectedFiles": [
+      "concat.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/concat/README.md",
+    "baseXp": 2500
+  },
+  {
+    "id": 100174,
+    "key": "isupper",
+    "name": "isupper",
+    "path": "/bahrain/bh-piscine/quest-05/isupper",
+    "difficulty": 1.25,
+    "level": 11,
+    "expectedFiles": [
+      "isupper.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/isupper/README.md",
+    "baseXp": 2500
+  },
+  {
+    "id": 100173,
+    "key": "islower",
+    "name": "islower",
+    "path": "/bahrain/bh-piscine/quest-05/islower",
+    "difficulty": 1.25,
+    "level": 11,
+    "expectedFiles": [
+      "islower.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/islower/README.md",
+    "baseXp": 2500
+  },
+  {
+    "id": 100171,
+    "key": "isalpha",
+    "name": "isalpha",
+    "path": "/bahrain/bh-piscine/quest-05/isalpha",
+    "difficulty": 1.25,
+    "level": 11,
+    "expectedFiles": [
+      "isalpha.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/isalpha/README.md",
+    "baseXp": 2500
+  },
+  {
+    "id": 100172,
+    "key": "isnumeric",
+    "name": "isnumeric",
+    "path": "/bahrain/bh-piscine/quest-05/isnumeric",
+    "difficulty": 1.25,
+    "level": 12,
+    "expectedFiles": [
+      "isnumeric.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/isnumeric/README.md",
+    "baseXp": 2688
+  },
+  {
+    "id": 100175,
+    "key": "isprintable",
+    "name": "isprintable",
+    "path": "/bahrain/bh-piscine/quest-05/isprintable",
+    "difficulty": 1.25,
+    "level": 12,
+    "expectedFiles": [
+      "isprintable.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/isprintable/README.md",
+    "baseXp": 2688
+  },
+  {
+    "id": 100168,
+    "key": "toupper",
+    "name": "toupper",
+    "path": "/bahrain/bh-piscine/quest-05/toupper",
+    "difficulty": 1.25,
+    "level": 12,
+    "expectedFiles": [
+      "toupper.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/toupper/README.md",
+    "baseXp": 2688
+  },
+  {
+    "id": 100169,
+    "key": "tolower",
+    "name": "tolower",
+    "path": "/bahrain/bh-piscine/quest-05/tolower",
+    "difficulty": 1.25,
+    "level": 12,
+    "expectedFiles": [
+      "tolower.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/tolower/README.md",
+    "baseXp": 2688
+  },
+  {
+    "id": 100181,
+    "key": "printnbrinorder",
+    "name": "printnbrinorder",
+    "path": "/bahrain/bh-piscine/quest-05/printnbrinorder",
+    "difficulty": 1.25,
+    "level": 12,
+    "expectedFiles": [
+      "printnbrinorder.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printnbrinorder/README.md",
+    "baseXp": 2688
+  },
+  {
+    "id": 100180,
+    "key": "trimatoi",
+    "name": "trimatoi",
+    "path": "/bahrain/bh-piscine/quest-05/trimatoi",
+    "difficulty": 1.25,
+    "level": 12,
+    "expectedFiles": [
+      "trimatoi.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/trimatoi/README.md",
+    "baseXp": 2688
+  },
+  {
+    "id": 100170,
+    "key": "capitalize",
+    "name": "capitalize",
+    "path": "/bahrain/bh-piscine/quest-05/capitalize",
+    "difficulty": 1.25,
+    "level": 12,
+    "expectedFiles": [
+      "capitalize.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/capitalize/README.md",
+    "baseXp": 2688
+  },
+  {
+    "id": 100177,
+    "key": "basicjoin",
+    "name": "basicjoin",
+    "path": "/bahrain/bh-piscine/quest-05/basicjoin",
+    "difficulty": 1.25,
+    "level": 13,
+    "expectedFiles": [
+      "basicjoin.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/basicjoin/README.md",
+    "baseXp": 2875
+  },
+  {
+    "id": 100178,
+    "key": "join",
+    "name": "join",
+    "path": "/bahrain/bh-piscine/quest-05/join",
+    "difficulty": 1.25,
+    "level": 13,
+    "expectedFiles": [
+      "join.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/join/README.md",
+    "baseXp": 2875
+  },
+  {
+    "id": 100182,
+    "key": "printnbrbase",
+    "name": "printnbrbase",
+    "path": "/bahrain/bh-piscine/quest-05/printnbrbase",
+    "difficulty": 1.5,
+    "level": 13,
+    "expectedFiles": [
+      "printnbrbase.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printnbrbase/README.md",
+    "baseXp": 3450
+  },
+  {
+    "id": 100118,
+    "key": "atoibase",
+    "name": "atoibase",
+    "path": "/bahrain/bh-piscine/quest-05/atoibase",
+    "difficulty": 1.5,
+    "level": 13,
+    "expectedFiles": [
+      "atoibase.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/atoibase/README.md",
+    "baseXp": 3450
+  },
+  {
+    "id": 100151,
+    "key": "printprogramname",
+    "name": "printprogramname",
+    "path": "/bahrain/bh-piscine/quest-06/printprogramname",
+    "difficulty": 1,
+    "level": 13,
+    "expectedFiles": [
+      "printprogramname/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printprogramname/README.md",
+    "baseXp": 2300
+  },
+  {
+    "id": 100152,
+    "key": "printparams",
+    "name": "printparams",
+    "path": "/bahrain/bh-piscine/quest-06/printparams",
+    "difficulty": 1,
+    "level": 13,
+    "expectedFiles": [
+      "printparams/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printparams/README.md",
+    "baseXp": 2300
+  },
+  {
+    "id": 100153,
+    "key": "revparams",
+    "name": "revparams",
+    "path": "/bahrain/bh-piscine/quest-06/revparams",
+    "difficulty": 1,
+    "level": 13,
+    "expectedFiles": [
+      "revparams/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "..",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/revparams/README.md",
+    "baseXp": 2300
+  },
+  {
+    "id": 100154,
+    "key": "sortparams",
+    "name": "sortparams",
+    "path": "/bahrain/bh-piscine/quest-06/sortparams",
+    "difficulty": 1.25,
+    "level": 13,
+    "expectedFiles": [
+      "sortparams/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "..",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/sortparams/README.md",
+    "baseXp": 2875
+  },
+  {
+    "id": 100156,
+    "key": "nbrconvertalpha",
+    "name": "nbrconvertalpha",
+    "path": "/bahrain/bh-piscine/quest-06/nbrconvertalpha",
+    "difficulty": 1.25,
+    "level": 13,
+    "expectedFiles": [
+      "nbrconvertalpha/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/nbrconvertalpha/README.md",
+    "baseXp": 2875
+  },
+  {
+    "id": 100157,
+    "key": "flags",
+    "name": "flags",
+    "path": "/bahrain/bh-piscine/quest-06/flags",
+    "difficulty": 1.75,
+    "level": 13,
+    "expectedFiles": [
+      "flags/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "fmt.*",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/flags/README.md",
+    "baseXp": 4025
+  },
+  {
+    "id": 100155,
+    "key": "rotatevowels",
+    "name": "rotatevowels",
+    "path": "/bahrain/bh-piscine/quest-06/rotatevowels",
+    "difficulty": 1.75,
+    "level": 13,
+    "expectedFiles": [
+      "rotatevowels/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rotatevowels/README.md",
+    "baseXp": 4025
+  },
+  {
+    "id": 100909,
+    "key": "onlya",
+    "name": "onlya",
+    "path": "/bahrain/bh-piscine/checkpoint-02/onlya",
+    "difficulty": 2,
+    "level": 17,
+    "expectedFiles": [
+      "onlya/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlya/README.md",
+    "baseXp": 5800
+  },
+  {
+    "id": 100910,
+    "key": "onlyz",
+    "name": "onlyz",
+    "path": "/bahrain/bh-piscine/checkpoint-02/onlyz",
+    "difficulty": 2,
+    "level": 17,
+    "expectedFiles": [
+      "onlyz/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyz/README.md",
+    "baseXp": 5800
+  },
+  {
+    "id": 101168,
+    "key": "onlyf",
+    "name": "onlyf",
+    "path": "/bahrain/bh-piscine/checkpoint-02/onlyf",
+    "difficulty": 2,
+    "level": 17,
+    "expectedFiles": [
+      "onlyf/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyf/README.md",
+    "baseXp": 5800
+  },
+  {
+    "id": 101169,
+    "key": "only1",
+    "name": "only1",
+    "path": "/bahrain/bh-piscine/checkpoint-02/only1",
+    "difficulty": 2,
+    "level": 17,
+    "expectedFiles": [
+      "only1/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/only1/README.md",
+    "baseXp": 5800
+  },
+  {
+    "id": 101170,
+    "key": "onlyb",
+    "name": "onlyb",
+    "path": "/bahrain/bh-piscine/checkpoint-02/onlyb",
+    "difficulty": 2,
+    "level": 17,
+    "expectedFiles": [
+      "onlyb/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyb/README.md",
+    "baseXp": 5800
+  },
+  {
+    "id": 101171,
+    "key": "rectperimeter",
+    "name": "rectperimeter",
+    "path": "/bahrain/bh-piscine/checkpoint-02/rectperimeter",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "rectperimeter.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rectperimeter/README.md",
+    "baseXp": 11600
+  },
+  {
+    "id": 100915,
+    "key": "countcharacter",
+    "name": "countcharacter",
+    "path": "/bahrain/bh-piscine/checkpoint-02/countcharacter",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "countcharacter.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/countcharacter/README.md",
+    "baseXp": 11600
+  },
+  {
+    "id": 100917,
+    "key": "checknumber",
+    "name": "checknumber",
+    "path": "/bahrain/bh-piscine/checkpoint-02/checknumber",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "checknumber.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/checknumber/README.md",
+    "baseXp": 11600
+  },
+  {
+    "id": 100916,
+    "key": "countalpha",
+    "name": "countalpha",
+    "path": "/bahrain/bh-piscine/checkpoint-02/countalpha",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "countalpha.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/countalpha/README.md",
+    "baseXp": 11600
+  },
+  {
+    "id": 101172,
+    "key": "printif",
+    "name": "printif",
+    "path": "/bahrain/bh-piscine/checkpoint-02/printif",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "printif.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printif/README.md",
+    "baseXp": 11600
+  },
+  {
+    "id": 101173,
+    "key": "printifnot",
+    "name": "printifnot",
+    "path": "/bahrain/bh-piscine/checkpoint-02/printifnot",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "printifnot.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printifnot/README.md",
+    "baseXp": 11600
+  },
+  {
+    "id": 101174,
+    "key": "retainfirsthalf",
+    "name": "retainfirsthalf",
+    "path": "/bahrain/bh-piscine/checkpoint-02/retainfirsthalf",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "retainfirsthalf.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/retainfirsthalf/README.md",
+    "baseXp": 11600
+  },
+  {
+    "id": 100918,
+    "key": "digitlen",
+    "name": "digitlen",
+    "path": "/bahrain/bh-piscine/checkpoint-02/digitlen",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "digitlen.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/digitlen/README.md",
+    "baseXp": 17400
+  },
+  {
+    "id": 100914,
+    "key": "fishandchips",
+    "name": "fishandchips",
+    "path": "/bahrain/bh-piscine/checkpoint-02/fishandchips",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "fishandchips.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fishandchips/README.md",
+    "baseXp": 17400
+  },
+  {
+    "id": 101176,
+    "key": "gcd",
+    "name": "gcd",
+    "path": "/bahrain/bh-piscine/checkpoint-02/gcd",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "gcd.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/gcd/README.md",
+    "baseXp": 17400
+  },
+  {
+    "id": 101177,
+    "key": "hashcode",
+    "name": "hashcode",
+    "path": "/bahrain/bh-piscine/checkpoint-02/hashcode",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "hashcode.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/hashcode/README.md",
+    "baseXp": 17400
+  },
+  {
+    "id": 101178,
+    "key": "lastword",
+    "name": "lastword",
+    "path": "/bahrain/bh-piscine/checkpoint-02/lastword",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "lastword.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/lastword/README.md",
+    "baseXp": 17400
+  },
+  {
+    "id": 101179,
+    "key": "firstword",
+    "name": "firstword",
+    "path": "/bahrain/bh-piscine/checkpoint-02/firstword",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "firstword.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/firstword/README.md",
+    "baseXp": 17400
+  },
+  {
+    "id": 101175,
+    "key": "cameltosnakecase",
+    "name": "cameltosnakecase",
+    "path": "/bahrain/bh-piscine/checkpoint-02/cameltosnakecase",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "cameltosnakecase.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/cameltosnakecase/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 101180,
+    "key": "repeatalpha",
+    "name": "repeatalpha",
+    "path": "/bahrain/bh-piscine/checkpoint-02/repeatalpha",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "repeatalpha.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/repeatalpha/README.md",
+    "baseXp": 17400
+  },
+  {
+    "id": 101181,
+    "key": "searchreplace",
+    "name": "searchreplace",
+    "path": "/bahrain/bh-piscine/checkpoint-02/searchreplace",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "searchreplace/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/searchreplace/README.md",
+    "baseXp": 17400
+  },
+  {
+    "id": 100927,
+    "key": "findprevprime",
+    "name": "findprevprime",
+    "path": "/bahrain/bh-piscine/checkpoint-02/findprevprime",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "findprevprime.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/findprevprime/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 100928,
+    "key": "thirdtimeisacharm",
+    "name": "thirdtimeisacharm",
+    "path": "/bahrain/bh-piscine/checkpoint-02/thirdtimeisacharm",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "thirdtimeisacharm.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/thirdtimeisacharm/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 100924,
+    "key": "printrevcomb",
+    "name": "printrevcomb",
+    "path": "/bahrain/bh-piscine/checkpoint-02/printrevcomb",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "printrevcomb/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--no-lit=\\d{3},"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printrevcomb/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 100923,
+    "key": "weareunique",
+    "name": "weareunique",
+    "path": "/bahrain/bh-piscine/checkpoint-02/weareunique",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "weareunique.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.Contains"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/weareunique/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 100922,
+    "key": "itoa",
+    "name": "itoa",
+    "path": "/bahrain/bh-piscine/checkpoint-02/itoa",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "itoa.go"
+    ],
+    "allowedFunctions": [
+      "len",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/itoa/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 100926,
+    "key": "iscapitalized",
+    "name": "iscapitalized",
+    "path": "/bahrain/bh-piscine/checkpoint-02/iscapitalized",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "iscapitalized.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/iscapitalized/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 100920,
+    "key": "fromto",
+    "name": "fromto",
+    "path": "/bahrain/bh-piscine/checkpoint-02/fromto",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "fromto.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fromto/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 101183,
+    "key": "zipstring",
+    "name": "zipstring",
+    "path": "/bahrain/bh-piscine/checkpoint-02/zipstring",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "zipstring.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/zipstring/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 101184,
+    "key": "expandstr",
+    "name": "expandstr",
+    "path": "/bahrain/bh-piscine/checkpoint-02/expandstr",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "expandstr/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/expandstr/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 101185,
+    "key": "cleanstr",
+    "name": "cleanstr",
+    "path": "/bahrain/bh-piscine/checkpoint-02/cleanstr",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "cleanstr/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/cleanstr/README.md",
+    "baseXp": 23200
+  },
+  {
+    "id": 101188,
+    "key": "concatalternate",
+    "name": "concatalternate",
+    "path": "/bahrain/bh-piscine/checkpoint-02/concatalternate",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "concatalternate.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/concatalternate/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 100932,
+    "key": "reversestrcap",
+    "name": "reversestrcap",
+    "path": "/bahrain/bh-piscine/checkpoint-02/reversestrcap",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "reversestrcap/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/reversestrcap/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 100933,
+    "key": "wdmatch",
+    "name": "wdmatch",
+    "path": "/bahrain/bh-piscine/checkpoint-02/wdmatch",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "wdmatch/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/wdmatch/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 101189,
+    "key": "hiddenp",
+    "name": "hiddenp",
+    "path": "/bahrain/bh-piscine/checkpoint-02/hiddenp",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "hiddenp/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/hiddenp/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 100930,
+    "key": "concatslice",
+    "name": "concatslice",
+    "path": "/bahrain/bh-piscine/checkpoint-02/concatslice",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "concatslice.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/concatslice/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 100133,
+    "key": "inter",
+    "name": "inter",
+    "path": "/bahrain/bh-piscine/checkpoint-02/inter",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "inter/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/inter/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 100140,
+    "key": "union",
+    "name": "union",
+    "path": "/bahrain/bh-piscine/checkpoint-02/union",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "union/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/union/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 100929,
+    "key": "saveandmiss",
+    "name": "saveandmiss",
+    "path": "/bahrain/bh-piscine/checkpoint-02/saveandmiss",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "saveandmiss.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/saveandmiss/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 101190,
+    "key": "chunk",
+    "name": "chunk",
+    "path": "/bahrain/bh-piscine/checkpoint-02/chunk",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "chunk.go"
+    ],
+    "allowedFunctions": [
+      "fmt.Println",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/chunk/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 101191,
+    "key": "addprimesum",
+    "name": "addprimesum",
+    "path": "/bahrain/bh-piscine/checkpoint-02/addprimesum",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "addprimesum/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/addprimesum/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 100931,
+    "key": "fprime",
+    "name": "fprime",
+    "path": "/bahrain/bh-piscine/checkpoint-02/fprime",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "fprime/main.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Atoi",
+      "os.Args",
+      "fmt.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fprime/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 101192,
+    "key": "canjump",
+    "name": "canjump",
+    "path": "/bahrain/bh-piscine/checkpoint-02/canjump",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "canjump.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/canjump/README.md",
+    "baseXp": 29000
+  },
+  {
+    "id": 100937,
+    "key": "notdecimal",
+    "name": "notdecimal",
+    "path": "/bahrain/bh-piscine/checkpoint-02/notdecimal",
+    "difficulty": 12,
+    "level": 17,
+    "expectedFiles": [
+      "notdecimal.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "math.Pow",
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/notdecimal/README.md",
+    "baseXp": 34800
+  },
+  {
+    "id": 100935,
+    "key": "slice",
+    "name": "slice",
+    "path": "/bahrain/bh-piscine/checkpoint-02/slice",
+    "difficulty": 12,
+    "level": 17,
+    "expectedFiles": [
+      "slice.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/slice/README.md",
+    "baseXp": 34800
+  },
+  {
+    "id": 100934,
+    "key": "fifthandskip",
+    "name": "fifthandskip",
+    "path": "/bahrain/bh-piscine/checkpoint-02/fifthandskip",
+    "difficulty": 12,
+    "level": 17,
+    "expectedFiles": [
+      "fifthandskip.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fifthandskip/README.md",
+    "baseXp": 34800
+  },
+  {
+    "id": 100936,
+    "key": "revconcatalternate",
+    "name": "revconcatalternate",
+    "path": "/bahrain/bh-piscine/checkpoint-02/revconcatalternate",
+    "difficulty": 12,
+    "level": 17,
+    "expectedFiles": [
+      "revconcatalternate.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/revconcatalternate/README.md",
+    "baseXp": 34800
+  },
+  {
+    "id": 100938,
+    "key": "wordflip",
+    "name": "wordflip",
+    "path": "/bahrain/bh-piscine/checkpoint-02/wordflip",
+    "difficulty": 14,
+    "level": 17,
+    "expectedFiles": [
+      "wordflip.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.Split",
+      "strings.TrimSpace"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/wordflip/README.md",
+    "baseXp": 40600
+  },
+  {
+    "id": 101193,
+    "key": "revwstr",
+    "name": "revwstr",
+    "path": "/bahrain/bh-piscine/checkpoint-02/revwstr",
+    "difficulty": 14,
+    "level": 17,
+    "expectedFiles": [
+      "revwstr/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/revwstr/README.md",
+    "baseXp": 40600
+  },
+  {
+    "id": 100940,
+    "key": "rostring",
+    "name": "rostring",
+    "path": "/bahrain/bh-piscine/checkpoint-02/rostring",
+    "difficulty": 14,
+    "level": 17,
+    "expectedFiles": [
+      "rostring/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rostring/README.md",
+    "baseXp": 40600
+  },
+  {
+    "id": 101194,
+    "key": "findpairs",
+    "name": "findpairs",
+    "path": "/bahrain/bh-piscine/checkpoint-02/findpairs",
+    "difficulty": 14,
+    "level": 17,
+    "expectedFiles": [
+      "findpairs/main.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "fmt.*",
+      "os.Args",
+      "strconv.Atoi",
+      "strings.*"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/findpairs/README.md",
+    "baseXp": 40600
+  },
+  {
+    "id": 100160,
+    "key": "appendrange",
+    "name": "appendrange",
+    "path": "/bahrain/bh-piscine/quest-07/appendrange",
+    "difficulty": 1,
+    "level": 17,
+    "expectedFiles": [
+      "appendrange.go"
+    ],
+    "allowedFunctions": [
+      "append"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/appendrange/README.md",
+    "baseXp": 2900
+  },
+  {
+    "id": 100159,
+    "key": "makerange",
+    "name": "makerange",
+    "path": "/bahrain/bh-piscine/quest-07/makerange",
+    "difficulty": 1,
+    "level": 17,
+    "expectedFiles": [
+      "makerange.go"
+    ],
+    "allowedFunctions": [
+      "make"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/makerange/README.md",
+    "baseXp": 2900
+  },
+  {
+    "id": 100161,
+    "key": "concatparams",
+    "name": "concatparams",
+    "path": "/bahrain/bh-piscine/quest-07/concatparams",
+    "difficulty": 1.25,
+    "level": 17,
+    "expectedFiles": [
+      "concatparams.go"
+    ],
+    "allowedFunctions": [
+      "make",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/concatparams/README.md",
+    "baseXp": 3625
+  },
+  {
+    "id": 100162,
+    "key": "splitwhitespaces",
+    "name": "splitwhitespaces",
+    "path": "/bahrain/bh-piscine/quest-07/splitwhitespaces",
+    "difficulty": 1.25,
+    "level": 17,
+    "expectedFiles": [
+      "splitwhitespaces.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/splitwhitespaces/README.md",
+    "baseXp": 3625
+  },
+  {
+    "id": 100163,
+    "key": "printwordstables",
+    "name": "printwordstables",
+    "path": "/bahrain/bh-piscine/quest-07/printwordstables",
+    "difficulty": 1,
+    "level": 17,
+    "expectedFiles": [
+      "printwordstables.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printwordstables/README.md",
+    "baseXp": 2900
+  },
+  {
+    "id": 100139,
+    "key": "split",
+    "name": "split",
+    "path": "/bahrain/bh-piscine/quest-07/split",
+    "difficulty": 1.25,
+    "level": 17,
+    "expectedFiles": [
+      "split.go"
+    ],
+    "allowedFunctions": [
+      "make",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/split/README.md",
+    "baseXp": 3625
+  },
+  {
+    "id": 100164,
+    "key": "convertbase",
+    "name": "convertbase",
+    "path": "/bahrain/bh-piscine/quest-07/convertbase",
+    "difficulty": 1.5,
+    "level": 17,
+    "expectedFiles": [
+      "convertbase.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/convertbase/README.md",
+    "baseXp": 4350
+  },
+  {
+    "id": 100096,
+    "key": "boolean",
+    "name": "boolean",
+    "path": "/bahrain/bh-piscine/quest-08/boolean",
+    "difficulty": 1,
+    "level": 17,
+    "expectedFiles": [
+      "boolean/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "..",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/boolean/README.md",
+    "baseXp": 2900
+  },
+  {
+    "id": 100094,
+    "key": "point",
+    "name": "point",
+    "path": "/bahrain/bh-piscine/quest-08/point",
+    "difficulty": 1.75,
+    "level": 17,
+    "expectedFiles": [
+      "point/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune#4",
+      "--no-lit=[1-9]"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/point/README.md",
+    "baseXp": 5075
+  },
+  {
+    "id": 100098,
+    "key": "displayfile",
+    "name": "displayfile",
+    "path": "/bahrain/bh-piscine/quest-08/displayfile",
+    "difficulty": 1.25,
+    "level": 17,
+    "expectedFiles": [
+      "displayfile/main.go"
+    ],
+    "allowedFunctions": [
+      "fmt.*",
+      "os.*",
+      "io.*",
+      "..",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/displayfile/README.md",
+    "baseXp": 3625
+  },
+  {
+    "id": 100095,
+    "key": "ztail",
+    "name": "ztail",
+    "path": "/bahrain/bh-piscine/quest-08/ztail",
+    "difficulty": 1.5,
+    "level": 18,
+    "expectedFiles": [
+      "ztail/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "fmt.Printf",
+      "..",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/ztail/README.md",
+    "baseXp": 4575
+  },
+  {
+    "id": 100053,
+    "key": "foreach",
+    "name": "foreach",
+    "path": "/bahrain/bh-piscine/quest-09/foreach",
+    "difficulty": 1,
+    "level": 18,
+    "expectedFiles": [
+      "foreach.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/foreach/README.md",
+    "baseXp": 3050
+  },
+  {
+    "id": 100048,
+    "key": "map",
+    "name": "map",
+    "path": "/bahrain/bh-piscine/quest-09/map",
+    "difficulty": 1,
+    "level": 18,
+    "expectedFiles": [
+      "map.go"
+    ],
+    "allowedFunctions": [
+      "make",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/map/README.md",
+    "baseXp": 3050
+  },
+  {
+    "id": 100049,
+    "key": "any",
+    "name": "any",
+    "path": "/bahrain/bh-piscine/quest-09/any",
+    "difficulty": 1,
+    "level": 18,
+    "expectedFiles": [
+      "any.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/any/README.md",
+    "baseXp": 3050
+  },
+  {
+    "id": 100050,
+    "key": "countif",
+    "name": "countif",
+    "path": "/bahrain/bh-piscine/quest-09/countif",
+    "difficulty": 1,
+    "level": 18,
+    "expectedFiles": [
+      "countif.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/countif/README.md",
+    "baseXp": 3050
+  },
+  {
+    "id": 100051,
+    "key": "issorted",
+    "name": "issorted",
+    "path": "/bahrain/bh-piscine/quest-09/issorted",
+    "difficulty": 1.25,
+    "level": 18,
+    "expectedFiles": [
+      "issorted.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/issorted/README.md",
+    "baseXp": 3813
+  },
+  {
+    "id": 100047,
+    "key": "doop",
+    "name": "doop",
+    "path": "/bahrain/bh-piscine/quest-09/doop",
+    "difficulty": 1.25,
+    "level": 18,
+    "expectedFiles": [
+      "doop/main.go"
+    ],
+    "allowedFunctions": [
+      "..",
+      "os.* fmt.*",
+      "--allow-builtin",
+      "strconv.Atoi"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/doop/README.md",
+    "baseXp": 3813
+  },
+  {
+    "id": 100046,
+    "key": "sortwordarr",
+    "name": "sortwordarr",
+    "path": "/bahrain/bh-piscine/quest-09/sortwordarr",
+    "difficulty": 1.25,
+    "level": 18,
+    "expectedFiles": [
+      "sortwordarr.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/sortwordarr/README.md",
+    "baseXp": 3813
+  },
+  {
+    "id": 100052,
+    "key": "advancedsortwordarr",
+    "name": "advancedsortwordarr",
+    "path": "/bahrain/bh-piscine/quest-09/advancedsortwordarr",
+    "difficulty": 1.5,
+    "level": 18,
+    "expectedFiles": [
+      "advancedsortwordarr.go"
+    ],
+    "allowedFunctions": [
+      "..",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/advancedsortwordarr/README.md",
+    "baseXp": 4575
+  },
+  {
+    "id": 100195,
+    "key": "rot14",
+    "name": "rot14",
+    "path": "/bahrain/bh-piscine/quest-10/rot14",
+    "difficulty": 1.25,
+    "level": 18,
+    "expectedFiles": [
+      "rot14.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rot14/README.md",
+    "baseXp": 3813
+  },
+  {
+    "id": 100199,
+    "key": "descendcomb",
+    "name": "descendcomb",
+    "path": "/bahrain/bh-piscine/quest-10/descendcomb",
+    "difficulty": 1.25,
+    "level": 18,
+    "expectedFiles": [
+      "descendcomb.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune#6",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/descendcomb/README.md",
+    "baseXp": 3813
+  },
+  {
+    "id": 100193,
+    "key": "unmatch",
+    "name": "unmatch",
+    "path": "/bahrain/bh-piscine/quest-10/unmatch",
+    "difficulty": 1.5,
+    "level": 18,
+    "expectedFiles": [
+      "unmatch.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/unmatch/README.md",
+    "baseXp": 4575
+  },
+  {
+    "id": 100206,
+    "key": "fooddeliverytime",
+    "name": "fooddeliverytime",
+    "path": "/bahrain/bh-piscine/quest-10/fooddeliverytime",
+    "difficulty": 1.5,
+    "level": 18,
+    "expectedFiles": [
+      "fooddeliverytime.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fooddeliverytime/README.md",
+    "baseXp": 4575
+  },
+  {
+    "id": 100189,
+    "key": "collatzcountdown",
+    "name": "collatzcountdown",
+    "path": "/bahrain/bh-piscine/quest-10/collatzcountdown",
+    "difficulty": 1.25,
+    "level": 18,
+    "expectedFiles": [
+      "collatzcountdown.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/collatzcountdown/README.md",
+    "baseXp": 3813
+  },
+  {
+    "id": 100188,
+    "key": "abort",
+    "name": "abort",
+    "path": "/bahrain/bh-piscine/quest-10/abort",
+    "difficulty": 1,
+    "level": 18,
+    "expectedFiles": [
+      "abort.go"
+    ],
+    "allowedFunctions": [
+      "..",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/abort/README.md",
+    "baseXp": 3050
+  },
+  {
+    "id": 100204,
+    "key": "shoppingsummarycounter",
+    "name": "shoppingsummarycounter",
+    "path": "/bahrain/bh-piscine/quest-10/shoppingsummarycounter",
+    "difficulty": 1.5,
+    "level": 19,
+    "expectedFiles": [
+      "shoppingsummarycounter.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/shoppingsummarycounter/README.md",
+    "baseXp": 4800
+  },
+  {
+    "id": 100192,
+    "key": "compact",
+    "name": "compact",
+    "path": "/bahrain/bh-piscine/quest-10/compact",
+    "difficulty": 1.25,
+    "level": 19,
+    "expectedFiles": [
+      "compact.go"
+    ],
+    "allowedFunctions": [
+      "make",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/compact/README.md",
+    "baseXp": 4000
+  },
+  {
+    "id": 100207,
+    "key": "dealapackofcards",
+    "name": "dealapackofcards",
+    "path": "/bahrain/bh-piscine/quest-10/dealapackofcards",
+    "difficulty": 1.25,
+    "level": 19,
+    "expectedFiles": [
+      "dealapackofcards.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "fmt.Printf"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/dealapackofcards/README.md",
+    "baseXp": 4000
+  },
+  {
+    "id": 100200,
+    "key": "jumpover",
+    "name": "jumpover",
+    "path": "/bahrain/bh-piscine/quest-10/jumpover",
+    "difficulty": 1.25,
+    "level": 19,
+    "expectedFiles": [
+      "jumpover.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/jumpover/README.md",
+    "baseXp": 4000
+  },
+  {
+    "id": 100203,
+    "key": "stringtointslice",
+    "name": "stringtointslice",
+    "path": "/bahrain/bh-piscine/quest-10/stringtointslice",
+    "difficulty": 1.5,
+    "level": 19,
+    "expectedFiles": [
+      "stringtointslice.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/stringtointslice/README.md",
+    "baseXp": 4800
+  },
+  {
+    "id": 100178,
+    "key": "join",
+    "name": "join",
+    "path": "/bahrain/bh-piscine/quest-10/join",
+    "difficulty": 1.25,
+    "level": 19,
+    "expectedFiles": [
+      "join.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/join/README.md",
+    "baseXp": 4000
+  },
+  {
+    "id": 100191,
+    "key": "enigma",
+    "name": "enigma",
+    "path": "/bahrain/bh-piscine/quest-10/enigma",
+    "difficulty": 1.25,
+    "level": 19,
+    "expectedFiles": [
+      "enigma.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/enigma/README.md",
+    "baseXp": 4000
+  },
+  {
+    "id": 100198,
+    "key": "descendappendrange",
+    "name": "descendappendrange",
+    "path": "/bahrain/bh-piscine/quest-10/descendappendrange",
+    "difficulty": 1.25,
+    "level": 19,
+    "expectedFiles": [
+      "descendappendrange.go"
+    ],
+    "allowedFunctions": [
+      "append"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/descendappendrange/README.md",
+    "baseXp": 4000
+  },
+  {
+    "id": 100205,
+    "key": "shoppinglistsort",
+    "name": "shoppinglistsort",
+    "path": "/bahrain/bh-piscine/quest-10/shoppinglistsort",
+    "difficulty": 1.5,
+    "level": 19,
+    "expectedFiles": [
+      "shoppinglistsort.go"
+    ],
+    "allowedFunctions": [
+      "len"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/shoppinglistsort/README.md",
+    "baseXp": 4800
+  },
+  {
+    "id": 100190,
+    "key": "comcheck",
+    "name": "comcheck",
+    "path": "/bahrain/bh-piscine/quest-10/comcheck",
+    "difficulty": 1,
+    "level": 19,
+    "expectedFiles": [
+      "comcheck/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "..",
+      "fmt.Println",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/comcheck/README.md",
+    "baseXp": 3200
+  },
+  {
+    "id": 100202,
+    "key": "reversemenuindex",
+    "name": "reversemenuindex",
+    "path": "/bahrain/bh-piscine/quest-10/reversemenuindex",
+    "difficulty": 1.25,
+    "level": 19,
+    "expectedFiles": [
+      "reversemenuindex.go"
+    ],
+    "allowedFunctions": [
+      "make",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/reversemenuindex/README.md",
+    "baseXp": 4000
+  },
+  {
+    "id": 100197,
+    "key": "podiumposition",
+    "name": "podiumposition",
+    "path": "/bahrain/bh-piscine/quest-10/podiumposition",
+    "difficulty": 1.25,
+    "level": 20,
+    "expectedFiles": [
+      "podiumposition.go"
+    ],
+    "allowedFunctions": [
+      "len"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/podiumposition/README.md",
+    "baseXp": 4188
+  },
+  {
+    "id": 100187,
+    "key": "activebits",
+    "name": "activebits",
+    "path": "/bahrain/bh-piscine/quest-10/activebits",
+    "difficulty": 1,
+    "level": 20,
+    "expectedFiles": [
+      "activebits.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/activebits/README.md",
+    "baseXp": 3350
+  },
+  {
+    "id": 100196,
+    "key": "pilot",
+    "name": "pilot",
+    "path": "/bahrain/bh-piscine/quest-10/pilot",
+    "difficulty": 1,
+    "level": 20,
+    "expectedFiles": [
+      "pilot/main.go"
+    ],
+    "allowedFunctions": [
+      "fmt.*",
+      "..",
+      ".",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/pilot/README.md",
+    "baseXp": 3350
+  },
+  {
+    "id": 100194,
+    "key": "fixthemain",
+    "name": "fixthemain",
+    "path": "/bahrain/bh-piscine/quest-10/fixthemain",
+    "difficulty": 1,
+    "level": 20,
+    "expectedFiles": [
+      "fixthemain/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--no-lit=\\\\nis"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fixthemain/README.md",
+    "baseXp": 3350
+  },
+  {
+    "id": 100186,
+    "key": "max",
+    "name": "max",
+    "path": "/bahrain/bh-piscine/quest-10/max",
+    "difficulty": 1,
+    "level": 20,
+    "expectedFiles": [
+      "max.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/max/README.md",
+    "baseXp": 3350
+  },
+  {
+    "id": 100201,
+    "key": "rockandroll",
+    "name": "rockandroll",
+    "path": "/bahrain/bh-piscine/quest-10/rockandroll",
+    "difficulty": 1.25,
+    "level": 20,
+    "expectedFiles": [
+      "rockandroll.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rockandroll/README.md",
+    "baseXp": 4188
+  },
+  {
+    "id": 100208,
+    "key": "loafofbread",
+    "name": "loafofbread",
+    "path": "/bahrain/bh-piscine/quest-10/loafofbread",
+    "difficulty": 1.25,
+    "level": 20,
+    "expectedFiles": [
+      "loafofbread.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/loafofbread/README.md",
+    "baseXp": 4188
+  },
+  {
+    "id": 100949,
+    "key": "onlya",
+    "name": "onlya",
+    "path": "/bahrain/bh-piscine/checkpoint-03/onlya",
+    "difficulty": 2,
+    "level": 25,
+    "expectedFiles": [
+      "onlya/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlya/README.md",
+    "baseXp": 8200
+  },
+  {
+    "id": 100950,
+    "key": "onlyz",
+    "name": "onlyz",
+    "path": "/bahrain/bh-piscine/checkpoint-03/onlyz",
+    "difficulty": 2,
+    "level": 25,
+    "expectedFiles": [
+      "onlyz/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyz/README.md",
+    "baseXp": 8200
+  },
+  {
+    "id": 101195,
+    "key": "onlyf",
+    "name": "onlyf",
+    "path": "/bahrain/bh-piscine/checkpoint-03/onlyf",
+    "difficulty": 2,
+    "level": 25,
+    "expectedFiles": [
+      "onlyf/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyf/README.md",
+    "baseXp": 8200
+  },
+  {
+    "id": 101196,
+    "key": "only1",
+    "name": "only1",
+    "path": "/bahrain/bh-piscine/checkpoint-03/only1",
+    "difficulty": 2,
+    "level": 25,
+    "expectedFiles": [
+      "only1/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/only1/README.md",
+    "baseXp": 8200
+  },
+  {
+    "id": 101197,
+    "key": "onlyb",
+    "name": "onlyb",
+    "path": "/bahrain/bh-piscine/checkpoint-03/onlyb",
+    "difficulty": 2,
+    "level": 25,
+    "expectedFiles": [
+      "onlyb/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyb/README.md",
+    "baseXp": 8200
+  },
+  {
+    "id": 101198,
+    "key": "rectperimeter",
+    "name": "rectperimeter",
+    "path": "/bahrain/bh-piscine/checkpoint-03/rectperimeter",
+    "difficulty": 4,
+    "level": 25,
+    "expectedFiles": [
+      "rectperimeter.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rectperimeter/README.md",
+    "baseXp": 16400
+  },
+  {
+    "id": 100956,
+    "key": "countcharacter",
+    "name": "countcharacter",
+    "path": "/bahrain/bh-piscine/checkpoint-03/countcharacter",
+    "difficulty": 4,
+    "level": 25,
+    "expectedFiles": [
+      "countcharacter.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/countcharacter/README.md",
+    "baseXp": 16400
+  },
+  {
+    "id": 100958,
+    "key": "checknumber",
+    "name": "checknumber",
+    "path": "/bahrain/bh-piscine/checkpoint-03/checknumber",
+    "difficulty": 4,
+    "level": 25,
+    "expectedFiles": [
+      "checknumber.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/checknumber/README.md",
+    "baseXp": 16400
+  },
+  {
+    "id": 100957,
+    "key": "countalpha",
+    "name": "countalpha",
+    "path": "/bahrain/bh-piscine/checkpoint-03/countalpha",
+    "difficulty": 4,
+    "level": 25,
+    "expectedFiles": [
+      "countalpha.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/countalpha/README.md",
+    "baseXp": 16400
+  },
+  {
+    "id": 101199,
+    "key": "printif",
+    "name": "printif",
+    "path": "/bahrain/bh-piscine/checkpoint-03/printif",
+    "difficulty": 4,
+    "level": 25,
+    "expectedFiles": [
+      "printif.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printif/README.md",
+    "baseXp": 16400
+  },
+  {
+    "id": 101200,
+    "key": "printifnot",
+    "name": "printifnot",
+    "path": "/bahrain/bh-piscine/checkpoint-03/printifnot",
+    "difficulty": 4,
+    "level": 25,
+    "expectedFiles": [
+      "printifnot.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printifnot/README.md",
+    "baseXp": 16400
+  },
+  {
+    "id": 101201,
+    "key": "retainfirsthalf",
+    "name": "retainfirsthalf",
+    "path": "/bahrain/bh-piscine/checkpoint-03/retainfirsthalf",
+    "difficulty": 4,
+    "level": 25,
+    "expectedFiles": [
+      "retainfirsthalf.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/retainfirsthalf/README.md",
+    "baseXp": 16400
+  },
+  {
+    "id": 100959,
+    "key": "digitlen",
+    "name": "digitlen",
+    "path": "/bahrain/bh-piscine/checkpoint-03/digitlen",
+    "difficulty": 6,
+    "level": 25,
+    "expectedFiles": [
+      "digitlen.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/digitlen/README.md",
+    "baseXp": 24600
+  },
+  {
+    "id": 100955,
+    "key": "fishandchips",
+    "name": "fishandchips",
+    "path": "/bahrain/bh-piscine/checkpoint-03/fishandchips",
+    "difficulty": 6,
+    "level": 25,
+    "expectedFiles": [
+      "fishandchips.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fishandchips/README.md",
+    "baseXp": 24600
+  },
+  {
+    "id": 101202,
+    "key": "cameltosnakecase",
+    "name": "cameltosnakecase",
+    "path": "/bahrain/bh-piscine/checkpoint-03/cameltosnakecase",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "cameltosnakecase.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/cameltosnakecase/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 101203,
+    "key": "gcd",
+    "name": "gcd",
+    "path": "/bahrain/bh-piscine/checkpoint-03/gcd",
+    "difficulty": 6,
+    "level": 25,
+    "expectedFiles": [
+      "gcd.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/gcd/README.md",
+    "baseXp": 24600
+  },
+  {
+    "id": 101204,
+    "key": "hashcode",
+    "name": "hashcode",
+    "path": "/bahrain/bh-piscine/checkpoint-03/hashcode",
+    "difficulty": 6,
+    "level": 25,
+    "expectedFiles": [
+      "hashcode.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/hashcode/README.md",
+    "baseXp": 24600
+  },
+  {
+    "id": 101205,
+    "key": "lastword",
+    "name": "lastword",
+    "path": "/bahrain/bh-piscine/checkpoint-03/lastword",
+    "difficulty": 6,
+    "level": 25,
+    "expectedFiles": [
+      "lastword.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/lastword/README.md",
+    "baseXp": 24600
+  },
+  {
+    "id": 101206,
+    "key": "firstword",
+    "name": "firstword",
+    "path": "/bahrain/bh-piscine/checkpoint-03/firstword",
+    "difficulty": 6,
+    "level": 25,
+    "expectedFiles": [
+      "firstword.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/firstword/README.md",
+    "baseXp": 24600
+  },
+  {
+    "id": 101207,
+    "key": "repeatalpha",
+    "name": "repeatalpha",
+    "path": "/bahrain/bh-piscine/checkpoint-03/repeatalpha",
+    "difficulty": 6,
+    "level": 25,
+    "expectedFiles": [
+      "repeatalpha.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/repeatalpha/README.md",
+    "baseXp": 24600
+  },
+  {
+    "id": 101208,
+    "key": "searchreplace",
+    "name": "searchreplace",
+    "path": "/bahrain/bh-piscine/checkpoint-03/searchreplace",
+    "difficulty": 6,
+    "level": 25,
+    "expectedFiles": [
+      "searchreplace/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/searchreplace/README.md",
+    "baseXp": 24600
+  },
+  {
+    "id": 100966,
+    "key": "findprevprime",
+    "name": "findprevprime",
+    "path": "/bahrain/bh-piscine/checkpoint-03/findprevprime",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "findprevprime.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/findprevprime/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 100967,
+    "key": "thirdtimeisacharm",
+    "name": "thirdtimeisacharm",
+    "path": "/bahrain/bh-piscine/checkpoint-03/thirdtimeisacharm",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "thirdtimeisacharm.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/thirdtimeisacharm/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 100963,
+    "key": "printrevcomb",
+    "name": "printrevcomb",
+    "path": "/bahrain/bh-piscine/checkpoint-03/printrevcomb",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "printrevcomb/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--no-lit=\\d{3},"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printrevcomb/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 100962,
+    "key": "weareunique",
+    "name": "weareunique",
+    "path": "/bahrain/bh-piscine/checkpoint-03/weareunique",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "weareunique.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.Contains"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/weareunique/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 100113,
+    "key": "itoa",
+    "name": "itoa",
+    "path": "/bahrain/bh-piscine/checkpoint-03/itoa",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "itoa.go"
+    ],
+    "allowedFunctions": [
+      "len",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/itoa/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 100965,
+    "key": "iscapitalized",
+    "name": "iscapitalized",
+    "path": "/bahrain/bh-piscine/checkpoint-03/iscapitalized",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "iscapitalized.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/iscapitalized/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 101210,
+    "key": "fromto",
+    "name": "fromto",
+    "path": "/bahrain/bh-piscine/checkpoint-03/fromto",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "fromto.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fromto/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 101211,
+    "key": "zipstring",
+    "name": "zipstring",
+    "path": "/bahrain/bh-piscine/checkpoint-03/zipstring",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "zipstring.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/zipstring/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 101212,
+    "key": "expandstr",
+    "name": "expandstr",
+    "path": "/bahrain/bh-piscine/checkpoint-03/expandstr",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "expandstr/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/expandstr/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 101213,
+    "key": "cleanstr",
+    "name": "cleanstr",
+    "path": "/bahrain/bh-piscine/checkpoint-03/cleanstr",
+    "difficulty": 8,
+    "level": 25,
+    "expectedFiles": [
+      "cleanstr/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/cleanstr/README.md",
+    "baseXp": 32800
+  },
+  {
+    "id": 101216,
+    "key": "concatalternate",
+    "name": "concatalternate",
+    "path": "/bahrain/bh-piscine/checkpoint-03/concatalternate",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "concatalternate.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/concatalternate/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 100230,
+    "key": "reversestrcap",
+    "name": "reversestrcap",
+    "path": "/bahrain/bh-piscine/checkpoint-03/reversestrcap",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "reversestrcap/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/reversestrcap/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 100972,
+    "key": "wdmatch",
+    "name": "wdmatch",
+    "path": "/bahrain/bh-piscine/checkpoint-03/wdmatch",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "wdmatch/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/wdmatch/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 101217,
+    "key": "hiddenp",
+    "name": "hiddenp",
+    "path": "/bahrain/bh-piscine/checkpoint-03/hiddenp",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "hiddenp/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/hiddenp/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 100969,
+    "key": "concatslice",
+    "name": "concatslice",
+    "path": "/bahrain/bh-piscine/checkpoint-03/concatslice",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "concatslice.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/concatslice/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 100971,
+    "key": "inter",
+    "name": "inter",
+    "path": "/bahrain/bh-piscine/checkpoint-03/inter",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "inter/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/inter/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 100970,
+    "key": "union",
+    "name": "union",
+    "path": "/bahrain/bh-piscine/checkpoint-03/union",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "union/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/union/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 100968,
+    "key": "saveandmiss",
+    "name": "saveandmiss",
+    "path": "/bahrain/bh-piscine/checkpoint-03/saveandmiss",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "saveandmiss.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/saveandmiss/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 101218,
+    "key": "chunk",
+    "name": "chunk",
+    "path": "/bahrain/bh-piscine/checkpoint-03/chunk",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "chunk.go"
+    ],
+    "allowedFunctions": [
+      "fmt.Println",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/chunk/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 101219,
+    "key": "addprimesum",
+    "name": "addprimesum",
+    "path": "/bahrain/bh-piscine/checkpoint-03/addprimesum",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "addprimesum/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin",
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/addprimesum/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 100128,
+    "key": "fprime",
+    "name": "fprime",
+    "path": "/bahrain/bh-piscine/checkpoint-03/fprime",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "fprime/main.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Atoi",
+      "os.Args",
+      "fmt.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fprime/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 101220,
+    "key": "canjump",
+    "name": "canjump",
+    "path": "/bahrain/bh-piscine/checkpoint-03/canjump",
+    "difficulty": 10,
+    "level": 25,
+    "expectedFiles": [
+      "canjump.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/canjump/README.md",
+    "baseXp": 41000
+  },
+  {
+    "id": 100976,
+    "key": "notdecimal",
+    "name": "notdecimal",
+    "path": "/bahrain/bh-piscine/checkpoint-03/notdecimal",
+    "difficulty": 12,
+    "level": 25,
+    "expectedFiles": [
+      "notdecimal.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "math.Pow",
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/notdecimal/README.md",
+    "baseXp": 49200
+  },
+  {
+    "id": 100974,
+    "key": "slice",
+    "name": "slice",
+    "path": "/bahrain/bh-piscine/checkpoint-03/slice",
+    "difficulty": 12,
+    "level": 25,
+    "expectedFiles": [
+      "slice.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/slice/README.md",
+    "baseXp": 49200
+  },
+  {
+    "id": 100973,
+    "key": "fifthandskip",
+    "name": "fifthandskip",
+    "path": "/bahrain/bh-piscine/checkpoint-03/fifthandskip",
+    "difficulty": 12,
+    "level": 25,
+    "expectedFiles": [
+      "fifthandskip.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fifthandskip/README.md",
+    "baseXp": 49200
+  },
+  {
+    "id": 100975,
+    "key": "revconcatalternate",
+    "name": "revconcatalternate",
+    "path": "/bahrain/bh-piscine/checkpoint-03/revconcatalternate",
+    "difficulty": 12,
+    "level": 25,
+    "expectedFiles": [
+      "revconcatalternate.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/revconcatalternate/README.md",
+    "baseXp": 49200
+  },
+  {
+    "id": 100977,
+    "key": "wordflip",
+    "name": "wordflip",
+    "path": "/bahrain/bh-piscine/checkpoint-03/wordflip",
+    "difficulty": 14,
+    "level": 25,
+    "expectedFiles": [
+      "wordflip.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.Split",
+      "strings.TrimSpace"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/wordflip/README.md",
+    "baseXp": 57400
+  },
+  {
+    "id": 101221,
+    "key": "revwstr",
+    "name": "revwstr",
+    "path": "/bahrain/bh-piscine/checkpoint-03/revwstr",
+    "difficulty": 14,
+    "level": 25,
+    "expectedFiles": [
+      "revwstr/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/revwstr/README.md",
+    "baseXp": 57400
+  },
+  {
+    "id": 100979,
+    "key": "rostring",
+    "name": "rostring",
+    "path": "/bahrain/bh-piscine/checkpoint-03/rostring",
+    "difficulty": 14,
+    "level": 25,
+    "expectedFiles": [
+      "rostring/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rostring/README.md",
+    "baseXp": 57400
+  },
+  {
+    "id": 101222,
+    "key": "findpairs",
+    "name": "findpairs",
+    "path": "/bahrain/bh-piscine/checkpoint-03/findpairs",
+    "difficulty": 14,
+    "level": 25,
+    "expectedFiles": [
+      "findpairs/main.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "fmt.*",
+      "os.Args",
+      "strconv.Atoi",
+      "strings.*"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/findpairs/README.md",
+    "baseXp": 57400
+  },
+  {
+    "id": 100985,
+    "key": "options",
+    "name": "options",
+    "path": "/bahrain/bh-piscine/checkpoint-03/options",
+    "difficulty": 16,
+    "level": 25,
+    "expectedFiles": [
+      "options/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "fmt.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/options/README.md",
+    "baseXp": 65600
+  },
+  {
+    "id": 101223,
+    "key": "romannumbers",
+    "name": "romannumbers",
+    "path": "/bahrain/bh-piscine/checkpoint-03/romannumbers",
+    "difficulty": 16,
+    "level": 25,
+    "expectedFiles": [
+      "romannumbers/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "fmt.Printf",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/romannumbers/README.md",
+    "baseXp": 65600
+  },
+  {
+    "id": 100983,
+    "key": "piglatin",
+    "name": "piglatin",
+    "path": "/bahrain/bh-piscine/checkpoint-03/piglatin",
+    "difficulty": 16,
+    "level": 25,
+    "expectedFiles": [
+      "piglatin/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/piglatin/README.md",
+    "baseXp": 65600
+  },
+  {
+    "id": 100982,
+    "key": "itoabase",
+    "name": "itoabase",
+    "path": "/bahrain/bh-piscine/checkpoint-03/itoabase",
+    "difficulty": 16,
+    "level": 25,
+    "expectedFiles": [
+      "itoabase.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/itoabase/README.md",
+    "baseXp": 65600
+  },
+  {
+    "id": 100986,
+    "key": "rpncalc",
+    "name": "rpncalc",
+    "path": "/bahrain/bh-piscine/checkpoint-03/rpncalc",
+    "difficulty": 18,
+    "level": 25,
+    "expectedFiles": [
+      "rpncalc/main.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Atoi",
+      "os.*",
+      "fmt.*",
+      "strings.Split",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rpncalc/README.md",
+    "baseXp": 73800
+  },
+  {
+    "id": 100987,
+    "key": "brackets",
+    "name": "brackets",
+    "path": "/bahrain/bh-piscine/checkpoint-03/brackets",
+    "difficulty": 18,
+    "level": 25,
+    "expectedFiles": [
+      "brackets/main.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Atoi",
+      "os.*",
+      "fmt.*",
+      "strings.Split",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/brackets/README.md",
+    "baseXp": 73800
+  },
+  {
+    "id": 100058,
+    "key": "listpushback",
+    "name": "listpushback",
+    "path": "/bahrain/bh-piscine/quest-11/listpushback",
+    "difficulty": 1.25,
+    "level": 25,
+    "expectedFiles": [
+      "listpushback.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listpushback/README.md",
+    "baseXp": 5125
+  },
+  {
+    "id": 100059,
+    "key": "listpushfront",
+    "name": "listpushfront",
+    "path": "/bahrain/bh-piscine/quest-11/listpushfront",
+    "difficulty": 1.25,
+    "level": 25,
+    "expectedFiles": [
+      "listpushfront.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listpushfront/README.md",
+    "baseXp": 5125
+  },
+  {
+    "id": 100056,
+    "key": "listsize",
+    "name": "listsize",
+    "path": "/bahrain/bh-piscine/quest-11/listsize",
+    "difficulty": 1,
+    "level": 25,
+    "expectedFiles": [
+      "listsize.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listsize/README.md",
+    "baseXp": 4100
+  },
+  {
+    "id": 100060,
+    "key": "listlast",
+    "name": "listlast",
+    "path": "/bahrain/bh-piscine/quest-11/listlast",
+    "difficulty": 1,
+    "level": 25,
+    "expectedFiles": [
+      "listlast.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listlast/README.md",
+    "baseXp": 4100
+  },
+  {
+    "id": 100061,
+    "key": "listclear",
+    "name": "listclear",
+    "path": "/bahrain/bh-piscine/quest-11/listclear",
+    "difficulty": 1.25,
+    "level": 25,
+    "expectedFiles": [
+      "listclear.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listclear/README.md",
+    "baseXp": 5125
+  },
+  {
+    "id": 100062,
+    "key": "listat",
+    "name": "listat",
+    "path": "/bahrain/bh-piscine/quest-11/listat",
+    "difficulty": 1.25,
+    "level": 25,
+    "expectedFiles": [
+      "listat.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listat/README.md",
+    "baseXp": 5125
+  },
+  {
+    "id": 100063,
+    "key": "listreverse",
+    "name": "listreverse",
+    "path": "/bahrain/bh-piscine/quest-11/listreverse",
+    "difficulty": 1.5,
+    "level": 25,
+    "expectedFiles": [
+      "listreverse.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listreverse/README.md",
+    "baseXp": 6150
+  },
+  {
+    "id": 100064,
+    "key": "listforeach",
+    "name": "listforeach",
+    "path": "/bahrain/bh-piscine/quest-11/listforeach",
+    "difficulty": 1.25,
+    "level": 25,
+    "expectedFiles": [
+      "listforeach.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listforeach/README.md",
+    "baseXp": 5125
+  },
+  {
+    "id": 100065,
+    "key": "listforeachif",
+    "name": "listforeachif",
+    "path": "/bahrain/bh-piscine/quest-11/listforeachif",
+    "difficulty": 1.25,
+    "level": 25,
+    "expectedFiles": [
+      "listforeachif.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listforeachif/README.md",
+    "baseXp": 5125
+  },
+  {
+    "id": 100057,
+    "key": "listfind",
+    "name": "listfind",
+    "path": "/bahrain/bh-piscine/quest-11/listfind",
+    "difficulty": 1.25,
+    "level": 25,
+    "expectedFiles": [
+      "listfind.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listfind/README.md",
+    "baseXp": 5125
+  },
+  {
+    "id": 100055,
+    "key": "listremoveif",
+    "name": "listremoveif",
+    "path": "/bahrain/bh-piscine/quest-11/listremoveif",
+    "difficulty": 1.5,
+    "level": 25,
+    "expectedFiles": [
+      "listremoveif.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listremoveif/README.md",
+    "baseXp": 6150
+  },
+  {
+    "id": 100066,
+    "key": "listmerge",
+    "name": "listmerge",
+    "path": "/bahrain/bh-piscine/quest-11/listmerge",
+    "difficulty": 1.5,
+    "level": 26,
+    "expectedFiles": [
+      "listmerge.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listmerge/README.md",
+    "baseXp": 6375
+  },
+  {
+    "id": 100067,
+    "key": "listsort",
+    "name": "listsort",
+    "path": "/bahrain/bh-piscine/quest-11/listsort",
+    "difficulty": 1.5,
+    "level": 26,
+    "expectedFiles": [
+      "listsort.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/listsort/README.md",
+    "baseXp": 6375
+  },
+  {
+    "id": 100068,
+    "key": "sortlistinsert",
+    "name": "sortlistinsert",
+    "path": "/bahrain/bh-piscine/quest-11/sortlistinsert",
+    "difficulty": 1.75,
+    "level": 26,
+    "expectedFiles": [
+      "sortlistinsert.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/sortlistinsert/README.md",
+    "baseXp": 7438
+  },
+  {
+    "id": 100069,
+    "key": "sortedlistmerge",
+    "name": "sortedlistmerge",
+    "path": "/bahrain/bh-piscine/quest-11/sortedlistmerge",
+    "difficulty": 2,
+    "level": 26,
+    "expectedFiles": [
+      "sortedlistmerge.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/sortedlistmerge/README.md",
+    "baseXp": 8500
+  },
+  {
+    "id": 100102,
+    "key": "btreeinsertdata",
+    "name": "btreeinsertdata",
+    "path": "/bahrain/bh-piscine/quest-12/btreeinsertdata",
+    "difficulty": 1.5,
+    "level": 25,
+    "expectedFiles": [
+      "btreeinsertdata.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreeinsertdata/README.md",
+    "baseXp": 6150
+  },
+  {
+    "id": 100103,
+    "key": "btreeapplyinorder",
+    "name": "btreeapplyinorder",
+    "path": "/bahrain/bh-piscine/quest-12/btreeapplyinorder",
+    "difficulty": 1.5,
+    "level": 25,
+    "expectedFiles": [
+      "btreeapplyinorder.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreeapplyinorder/README.md",
+    "baseXp": 6150
+  },
+  {
+    "id": 100100,
+    "key": "btreeapplypostorder",
+    "name": "btreeapplypostorder",
+    "path": "/bahrain/bh-piscine/quest-12/btreeapplypostorder",
+    "difficulty": 1.5,
+    "level": 26,
+    "expectedFiles": [
+      "btreeapplypostorder.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreeapplypostorder/README.md",
+    "baseXp": 6375
+  },
+  {
+    "id": 100104,
+    "key": "btreeapplypreorder",
+    "name": "btreeapplypreorder",
+    "path": "/bahrain/bh-piscine/quest-12/btreeapplypreorder",
+    "difficulty": 1.5,
+    "level": 26,
+    "expectedFiles": [
+      "btreeapplypreorder.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreeapplypreorder/README.md",
+    "baseXp": 6375
+  },
+  {
+    "id": 100105,
+    "key": "btreesearchitem",
+    "name": "btreesearchitem",
+    "path": "/bahrain/bh-piscine/quest-12/btreesearchitem",
+    "difficulty": 1.75,
+    "level": 26,
+    "expectedFiles": [
+      "btreesearchitem.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreesearchitem/README.md",
+    "baseXp": 7438
+  },
+  {
+    "id": 100106,
+    "key": "btreelevelcount",
+    "name": "btreelevelcount",
+    "path": "/bahrain/bh-piscine/quest-12/btreelevelcount",
+    "difficulty": 1.5,
+    "level": 26,
+    "expectedFiles": [
+      "btreelevelcount.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreelevelcount/README.md",
+    "baseXp": 6375
+  },
+  {
+    "id": 100107,
+    "key": "btreeisbinary",
+    "name": "btreeisbinary",
+    "path": "/bahrain/bh-piscine/quest-12/btreeisbinary",
+    "difficulty": 1.75,
+    "level": 26,
+    "expectedFiles": [
+      "btreeisbinary.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreeisbinary/README.md",
+    "baseXp": 7438
+  },
+  {
+    "id": 100111,
+    "key": "btreeapplybylevel",
+    "name": "btreeapplybylevel",
+    "path": "/bahrain/bh-piscine/quest-12/btreeapplybylevel",
+    "difficulty": 1.75,
+    "level": 26,
+    "expectedFiles": [
+      "btreeapplybylevel.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreeapplybylevel/README.md",
+    "baseXp": 7438
+  },
+  {
+    "id": 100108,
+    "key": "btreemax",
+    "name": "btreemax",
+    "path": "/bahrain/bh-piscine/quest-12/btreemax",
+    "difficulty": 1.75,
+    "level": 26,
+    "expectedFiles": [
+      "btreemax.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreemax/README.md",
+    "baseXp": 7438
+  },
+  {
+    "id": 100109,
+    "key": "btreemin",
+    "name": "btreemin",
+    "path": "/bahrain/bh-piscine/quest-12/btreemin",
+    "difficulty": 1.75,
+    "level": 26,
+    "expectedFiles": [
+      "btreemin.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreemin/README.md",
+    "baseXp": 7438
+  },
+  {
+    "id": 100110,
+    "key": "btreetransplant",
+    "name": "btreetransplant",
+    "path": "/bahrain/bh-piscine/quest-12/btreetransplant",
+    "difficulty": 2,
+    "level": 26,
+    "expectedFiles": [
+      "btreetransplant.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreetransplant/README.md",
+    "baseXp": 8500
+  },
+  {
+    "id": 100101,
+    "key": "btreedeletenode",
+    "name": "btreedeletenode",
+    "path": "/bahrain/bh-piscine/quest-12/btreedeletenode",
+    "difficulty": 2,
+    "level": 26,
+    "expectedFiles": [
+      "btreedeletenode.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/btreedeletenode/README.md",
+    "baseXp": 8500
+  },
+  {
+    "id": 100909,
+    "key": "onlya",
+    "name": "onlya",
+    "path": "/bahrain/bh-piscine/re-test/onlya",
+    "difficulty": 2,
+    "level": 32,
+    "expectedFiles": [
+      "onlya/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlya/README.md",
+    "baseXp": 10300
+  },
+  {
+    "id": 101171,
+    "key": "rectperimeter",
+    "name": "rectperimeter",
+    "path": "/bahrain/bh-piscine/re-test/rectperimeter",
+    "difficulty": 4,
+    "level": 32,
+    "expectedFiles": [
+      "rectperimeter.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rectperimeter/README.md",
+    "baseXp": 20600
+  },
+  {
+    "id": 101207,
+    "key": "repeatealpha",
+    "name": "repeatalpha",
+    "path": "/bahrain/bh-piscine/re-test/repeatealpha",
+    "difficulty": 6,
+    "level": 32,
+    "expectedFiles": [
+      "repeatalpha.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/repeatalpha/README.md",
+    "baseXp": 30900
+  },
+  {
+    "id": 100927,
+    "key": "findprevprime",
+    "name": "findprevprime",
+    "path": "/bahrain/bh-piscine/re-test/findprevprime",
+    "difficulty": 8,
+    "level": 32,
+    "expectedFiles": [
+      "findprevprime.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/findprevprime/README.md",
+    "baseXp": 41200
+  },
+  {
+    "id": 100970,
+    "key": "union",
+    "name": "union",
+    "path": "/bahrain/bh-piscine/re-test/union",
+    "difficulty": 10,
+    "level": 32,
+    "expectedFiles": [
+      "union/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/union/README.md",
+    "baseXp": 51500
+  },
+  {
+    "id": 100933,
+    "key": "wdmatch",
+    "name": "wdmatch",
+    "path": "/bahrain/bh-piscine/re-test/wdmatch",
+    "difficulty": 12,
+    "level": 32,
+    "expectedFiles": [
+      "wdmatch/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/wdmatch/README.md",
+    "baseXp": 61800
+  },
+  {
+    "id": 100941,
+    "key": "printnbrbase",
+    "name": "printnbrbase",
+    "path": "/bahrain/bh-piscine/re-test/printnbrbase",
+    "difficulty": 14,
+    "level": 32,
+    "expectedFiles": [
+      "printnbrbase.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printnbrbase/README.md",
+    "baseXp": 72100
+  },
+  {
+    "id": 100983,
+    "key": "piglatin",
+    "name": "piglatin",
+    "path": "/bahrain/bh-piscine/re-test/piglatin",
+    "difficulty": 16,
+    "level": 32,
+    "expectedFiles": [
+      "piglatin/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/piglatin/README.md",
+    "baseXp": 82400
+  },
+  {
+    "id": 100906,
+    "key": "brackets",
+    "name": "brackets",
+    "path": "/bahrain/bh-piscine/re-test/brackets",
+    "difficulty": 18,
+    "level": 32,
+    "expectedFiles": [
+      "brackets/main.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Atoi",
+      "os.*",
+      "fmt.*",
+      "strings.Split",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/brackets/README.md",
+    "baseXp": 92700
+  },
+  {
+    "id": 100948,
+    "key": "brainfuck",
+    "name": "brainfuck",
+    "path": "/bahrain/bh-piscine/re-test/brainfuck",
+    "difficulty": 20,
+    "level": 32,
+    "expectedFiles": [
+      "brainfuck/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/brainfuck/README.md",
+    "baseXp": 103000
+  },
+  {
+    "id": 101250,
+    "key": "onlya",
+    "name": "onlya",
+    "path": "/bahrain/bh-module/checkpoint/onlya",
+    "difficulty": 2,
+    "level": 17,
+    "expectedFiles": [
+      "onlya/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlya/README.md",
+    "baseXp": 50
+  },
+  {
+    "id": 101251,
+    "key": "onlyz",
+    "name": "onlyz",
+    "path": "/bahrain/bh-module/checkpoint/onlyz",
+    "difficulty": 2,
+    "level": 17,
+    "expectedFiles": [
+      "onlyz/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyz/README.md",
+    "baseXp": 50
+  },
+  {
+    "id": 101252,
+    "key": "onlyf",
+    "name": "onlyf",
+    "path": "/bahrain/bh-module/checkpoint/onlyf",
+    "difficulty": 2,
+    "level": 17,
+    "expectedFiles": [
+      "onlyf/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyf/README.md",
+    "baseXp": 50
+  },
+  {
+    "id": 101253,
+    "key": "only1",
+    "name": "only1",
+    "path": "/bahrain/bh-module/checkpoint/only1",
+    "difficulty": 2,
+    "level": 17,
+    "expectedFiles": [
+      "only1/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/only1/README.md",
+    "baseXp": 50
+  },
+  {
+    "id": 101254,
+    "key": "onlyb",
+    "name": "onlyb",
+    "path": "/bahrain/bh-module/checkpoint/onlyb",
+    "difficulty": 2,
+    "level": 17,
+    "expectedFiles": [
+      "onlyb/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/onlyb/README.md",
+    "baseXp": 50
+  },
+  {
+    "id": 101255,
+    "key": "rectperimeter",
+    "name": "rectperimeter",
+    "path": "/bahrain/bh-module/checkpoint/rectperimeter",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "rectperimeter.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rectperimeter/README.md",
+    "baseXp": 100
+  },
+  {
+    "id": 101256,
+    "key": "countcharacter",
+    "name": "countcharacter",
+    "path": "/bahrain/bh-module/checkpoint/countcharacter",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "countcharacter.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/countcharacter/README.md",
+    "baseXp": 100
+  },
+  {
+    "id": 101257,
+    "key": "checknumber",
+    "name": "checknumber",
+    "path": "/bahrain/bh-module/checkpoint/checknumber",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "checknumber.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/checknumber/README.md",
+    "baseXp": 100
+  },
+  {
+    "id": 101258,
+    "key": "countalpha",
+    "name": "countalpha",
+    "path": "/bahrain/bh-module/checkpoint/countalpha",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "countalpha.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/countalpha/README.md",
+    "baseXp": 100
+  },
+  {
+    "id": 101259,
+    "key": "printif",
+    "name": "printif",
+    "path": "/bahrain/bh-module/checkpoint/printif",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "printif.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printif/README.md",
+    "baseXp": 100
+  },
+  {
+    "id": 101260,
+    "key": "printifnot",
+    "name": "printifnot",
+    "path": "/bahrain/bh-module/checkpoint/printifnot",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "printifnot.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printifnot/README.md",
+    "baseXp": 100
+  },
+  {
+    "id": 101261,
+    "key": "retainfirsthalf",
+    "name": "retainfirsthalf",
+    "path": "/bahrain/bh-module/checkpoint/retainfirsthalf",
+    "difficulty": 4,
+    "level": 17,
+    "expectedFiles": [
+      "retainfirsthalf.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/retainfirsthalf/README.md",
+    "baseXp": 100
+  },
+  {
+    "id": 101262,
+    "key": "digitlen",
+    "name": "digitlen",
+    "path": "/bahrain/bh-module/checkpoint/digitlen",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "digitlen.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/digitlen/README.md",
+    "baseXp": 150
+  },
+  {
+    "id": 101263,
+    "key": "fishandchips",
+    "name": "fishandchips",
+    "path": "/bahrain/bh-module/checkpoint/fishandchips",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "fishandchips.go"
+    ],
+    "allowedFunctions": [],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fishandchips/README.md",
+    "baseXp": 150
+  },
+  {
+    "id": 101264,
+    "key": "cameltosnakecase",
+    "name": "cameltosnakecase",
+    "path": "/bahrain/bh-module/checkpoint/cameltosnakecase",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "cameltosnakecase.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/cameltosnakecase/README.md",
+    "baseXp": 150
+  },
+  {
+    "id": 101265,
+    "key": "gcd",
+    "name": "gcd",
+    "path": "/bahrain/bh-module/checkpoint/gcd",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "gcd.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/gcd/README.md",
+    "baseXp": 150
+  },
+  {
+    "id": 101266,
+    "key": "hashcode",
+    "name": "hashcode",
+    "path": "/bahrain/bh-module/checkpoint/hashcode",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "hashcode.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/hashcode/README.md",
+    "baseXp": 150
+  },
+  {
+    "id": 101267,
+    "key": "lastword",
+    "name": "lastword",
+    "path": "/bahrain/bh-module/checkpoint/lastword",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "lastword.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/lastword/README.md",
+    "baseXp": 150
+  },
+  {
+    "id": 101268,
+    "key": "firstword",
+    "name": "firstword",
+    "path": "/bahrain/bh-module/checkpoint/firstword",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "firstword.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/firstword/README.md",
+    "baseXp": 150
+  },
+  {
+    "id": 101269,
+    "key": "repeatalpha",
+    "name": "repeatalpha",
+    "path": "/bahrain/bh-module/checkpoint/repeatalpha",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "repeatalpha.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/repeatalpha/README.md",
+    "baseXp": 150
+  },
+  {
+    "id": 100278,
+    "key": "searchreplace",
+    "name": "searchreplace",
+    "path": "/bahrain/bh-module/checkpoint/searchreplace",
+    "difficulty": 6,
+    "level": 17,
+    "expectedFiles": [
+      "searchreplace/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/searchreplace/README.md",
+    "baseXp": 150
+  },
+  {
+    "id": 100308,
+    "key": "findprevprime",
+    "name": "findprevprime",
+    "path": "/bahrain/bh-module/checkpoint/findprevprime",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "findprevprime.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/findprevprime/README.md",
+    "baseXp": 200
+  },
+  {
+    "id": 101270,
+    "key": "thirdtimeisacharm",
+    "name": "thirdtimeisacharm",
+    "path": "/bahrain/bh-module/checkpoint/thirdtimeisacharm",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "thirdtimeisacharm.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/thirdtimeisacharm/README.md",
+    "baseXp": 200
+  },
+  {
+    "id": 101271,
+    "key": "printrevcomb",
+    "name": "printrevcomb",
+    "path": "/bahrain/bh-module/checkpoint/printrevcomb",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "printrevcomb/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "--no-lit=\\d{3},"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/printrevcomb/README.md",
+    "baseXp": 200
+  },
+  {
+    "id": 101272,
+    "key": "weareunique",
+    "name": "weareunique",
+    "path": "/bahrain/bh-module/checkpoint/weareunique",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "weareunique.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.Contains"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/weareunique/README.md",
+    "baseXp": 200
+  },
+  {
+    "id": 100263,
+    "key": "itoa",
+    "name": "itoa",
+    "path": "/bahrain/bh-module/checkpoint/itoa",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "itoa.go"
+    ],
+    "allowedFunctions": [
+      "len",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/itoa/README.md",
+    "baseXp": 200
+  },
+  {
+    "id": 101273,
+    "key": "iscapitalized",
+    "name": "iscapitalized",
+    "path": "/bahrain/bh-module/checkpoint/iscapitalized",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "iscapitalized.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/iscapitalized/README.md",
+    "baseXp": 200
+  },
+  {
+    "id": 101274,
+    "key": "fromto",
+    "name": "fromto",
+    "path": "/bahrain/bh-module/checkpoint/fromto",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "fromto.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fromto/README.md",
+    "baseXp": 200
+  },
+  {
+    "id": 101275,
+    "key": "zipstring",
+    "name": "zipstring",
+    "path": "/bahrain/bh-module/checkpoint/zipstring",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "zipstring.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/zipstring/README.md",
+    "baseXp": 200
+  },
+  {
+    "id": 101276,
+    "key": "expandstr",
+    "name": "expandstr",
+    "path": "/bahrain/bh-module/checkpoint/expandstr",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "expandstr/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/expandstr/README.md",
+    "baseXp": 200
+  },
+  {
+    "id": 101277,
+    "key": "cleanstr",
+    "name": "cleanstr",
+    "path": "/bahrain/bh-module/checkpoint/cleanstr",
+    "difficulty": 8,
+    "level": 17,
+    "expectedFiles": [
+      "cleanstr/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/cleanstr/README.md",
+    "baseXp": 200
+  },
+  {
+    "id": 101278,
+    "key": "concatalternate",
+    "name": "concatalternate",
+    "path": "/bahrain/bh-module/checkpoint/concatalternate",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "concatalternate.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/concatalternate/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 101279,
+    "key": "reversestrcap",
+    "name": "reversestrcap",
+    "path": "/bahrain/bh-module/checkpoint/reversestrcap",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "reversestrcap/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/reversestrcap/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 100290,
+    "key": "wdmatch",
+    "name": "wdmatch",
+    "path": "/bahrain/bh-module/checkpoint/wdmatch",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "wdmatch/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/module-go",
+    "subject": "/api/content/root/01-edu_module/content/wdmatch/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 100277,
+    "key": "hiddenp",
+    "name": "hiddenp",
+    "path": "/bahrain/bh-module/checkpoint/hiddenp",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "hiddenp/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/hiddenp/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 101280,
+    "key": "concatslice",
+    "name": "concatslice",
+    "path": "/bahrain/bh-module/checkpoint/concatslice",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "concatslice.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/concatslice/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 100295,
+    "key": "inter",
+    "name": "inter",
+    "path": "/bahrain/bh-module/checkpoint/inter",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "inter/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.Args",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/inter/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 100303,
+    "key": "union",
+    "name": "union",
+    "path": "/bahrain/bh-module/checkpoint/union",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "union/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/union/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 101281,
+    "key": "saveandmiss",
+    "name": "saveandmiss",
+    "path": "/bahrain/bh-module/checkpoint/saveandmiss",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "saveandmiss.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/saveandmiss/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 100312,
+    "key": "chunk",
+    "name": "chunk",
+    "path": "/bahrain/bh-module/checkpoint/chunk",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "chunk.go"
+    ],
+    "allowedFunctions": [
+      "fmt.Println",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/chunk/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 100286,
+    "key": "addprimesum",
+    "name": "addprimesum",
+    "path": "/bahrain/bh-module/checkpoint/addprimesum",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "addprimesum/main.go"
+    ],
+    "allowedFunctions": [
+      "github.com/01-edu/z01.PrintRune",
+      "os.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/addprimesum/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 100288,
+    "key": "fprime",
+    "name": "fprime",
+    "path": "/bahrain/bh-module/checkpoint/fprime",
+    "difficulty": 10,
+    "level": 17,
+    "expectedFiles": [
+      "fprime/main.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Atoi",
+      "os.Args",
+      "fmt.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/fprime/README.md",
+    "baseXp": 250
+  },
+  {
+    "id": 101283,
+    "key": "notdecimal",
+    "name": "notdecimal",
+    "path": "/bahrain/bh-module/checkpoint/notdecimal",
+    "difficulty": 12,
+    "level": 17,
+    "expectedFiles": [
+      "notdecimal.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "math.Pow",
+      "strconv.Itoa"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/notdecimal/README.md",
+    "baseXp": 300
+  },
+  {
+    "id": 101284,
+    "key": "slice",
+    "name": "slice",
+    "path": "/bahrain/bh-module/checkpoint/slice",
+    "difficulty": 12,
+    "level": 17,
+    "expectedFiles": [
+      "slice.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/slice/README.md",
+    "baseXp": 300
+  },
+  {
+    "id": 101285,
+    "key": "fifthandskip",
+    "name": "fifthandskip",
+    "path": "/bahrain/bh-module/checkpoint/fifthandskip",
+    "difficulty": 12,
+    "level": 17,
+    "expectedFiles": [
+      "fifthandskip.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.String"
+    ],
+    "testImage": "ghcr.io/01-edu/module-go",
+    "subject": "/api/content/root/01-edu_module/content/fifthandskip/README.md",
+    "baseXp": 300
+  },
+  {
+    "id": 101286,
+    "key": "revconcatalternate",
+    "name": "revconcatalternate",
+    "path": "/bahrain/bh-module/checkpoint/revconcatalternate",
+    "difficulty": 12,
+    "level": 17,
+    "expectedFiles": [
+      "revconcatalternate.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/module-go",
+    "subject": "/api/content/root/01-edu_module/content/revconcatalternate/README.md",
+    "baseXp": 300
+  },
+  {
+    "id": 101287,
+    "key": "wordflip",
+    "name": "wordflip",
+    "path": "/bahrain/bh-module/checkpoint/wordflip",
+    "difficulty": 14,
+    "level": 17,
+    "expectedFiles": [
+      "wordflip.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "strings.Split",
+      "strings.TrimSpace"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/wordflip/README.md",
+    "baseXp": 350
+  },
+  {
+    "id": 100280,
+    "key": "revwstr",
+    "name": "revwstr",
+    "path": "/bahrain/bh-module/checkpoint/revwstr",
+    "difficulty": 14,
+    "level": 17,
+    "expectedFiles": [
+      "revwstr/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/revwstr/README.md",
+    "baseXp": 350
+  },
+  {
+    "id": 100279,
+    "key": "rostring",
+    "name": "rostring",
+    "path": "/bahrain/bh-module/checkpoint/rostring",
+    "difficulty": 14,
+    "level": 17,
+    "expectedFiles": [
+      "rostring/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rostring/README.md",
+    "baseXp": 350
+  },
+  {
+    "id": 101288,
+    "key": "findpairs",
+    "name": "findpairs",
+    "path": "/bahrain/bh-module/checkpoint/findpairs",
+    "difficulty": 14,
+    "level": 17,
+    "expectedFiles": [
+      "findpairs/main.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin",
+      "fmt.*",
+      "os.Args",
+      "strconv.Atoi",
+      "strings.*"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/findpairs/README.md",
+    "baseXp": 350
+  },
+  {
+    "id": 100296,
+    "key": "options",
+    "name": "options",
+    "path": "/bahrain/bh-module/checkpoint/options",
+    "difficulty": 16,
+    "level": 17,
+    "expectedFiles": [
+      "options/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "fmt.*",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/options/README.md",
+    "baseXp": 400
+  },
+  {
+    "id": 101289,
+    "key": "romannumbers",
+    "name": "romannumbers",
+    "path": "/bahrain/bh-module/checkpoint/romannumbers",
+    "difficulty": 16,
+    "level": 17,
+    "expectedFiles": [
+      "romannumbers/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "fmt.Printf",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/romannumbers/README.md",
+    "baseXp": 400
+  },
+  {
+    "id": 100307,
+    "key": "piglatin",
+    "name": "piglatin",
+    "path": "/bahrain/bh-module/checkpoint/piglatin",
+    "difficulty": 16,
+    "level": 17,
+    "expectedFiles": [
+      "piglatin/main.go"
+    ],
+    "allowedFunctions": [
+      "os.Args",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/piglatin/README.md",
+    "baseXp": 400
+  },
+  {
+    "id": 100264,
+    "key": "itoabase",
+    "name": "itoabase",
+    "path": "/bahrain/bh-module/checkpoint/itoabase",
+    "difficulty": 16,
+    "level": 17,
+    "expectedFiles": [
+      "itoabase.go"
+    ],
+    "allowedFunctions": [
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/itoabase/README.md",
+    "baseXp": 400
+  },
+  {
+    "id": 101290,
+    "key": "rpncalc",
+    "name": "rpncalc",
+    "path": "/bahrain/bh-module/checkpoint/rpncalc",
+    "difficulty": 18,
+    "level": 17,
+    "expectedFiles": [
+      "rpncalc/main.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Atoi",
+      "os.*",
+      "fmt.*",
+      "strings.Split",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/rpncalc/README.md",
+    "baseXp": 450
+  },
+  {
+    "id": 100282,
+    "key": "brackets",
+    "name": "brackets",
+    "path": "/bahrain/bh-module/checkpoint/brackets",
+    "difficulty": 18,
+    "level": 17,
+    "expectedFiles": [
+      "brackets/main.go"
+    ],
+    "allowedFunctions": [
+      "strconv.Atoi",
+      "os.*",
+      "fmt.*",
+      "strings.Split",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/brackets/README.md",
+    "baseXp": 450
+  },
+  {
+    "id": 101291,
+    "key": "grouping",
+    "name": "grouping",
+    "path": "/bahrain/bh-module/checkpoint/grouping",
+    "difficulty": 20,
+    "level": 17,
+    "expectedFiles": [
+      "grouping/main.go"
+    ],
+    "allowedFunctions": [
+      "fmt.Printf",
+      "os.Args",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/grouping/README.md",
+    "baseXp": 500
+  },
+  {
+    "id": 101292,
+    "key": "brainfuck",
+    "name": "brainfuck",
+    "path": "/bahrain/bh-module/checkpoint/brainfuck",
+    "difficulty": 20,
+    "level": 17,
+    "expectedFiles": [
+      "brainfuck/main.go"
+    ],
+    "allowedFunctions": [
+      "os.*",
+      "github.com/01-edu/z01.PrintRune",
+      "--allow-builtin"
+    ],
+    "testImage": "ghcr.io/01-edu/test-go",
+    "subject": "/markdown/root/public/subjects/brainfuck/README.md",
+    "baseXp": 500
+  }
+]
