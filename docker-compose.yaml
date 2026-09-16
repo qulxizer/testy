@@ -1,0 +1,36 @@
+services:
+  testy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      - "8090:8090"
+
+    volumes:
+      - ./backend:/testy
+      - /var/run/docker.sock:/var/run/docker.sock
+      - submissions:/submissions
+
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: dev
+      POSTGRES_DB: testy
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
+  submissions:
+    name: testy_submissions

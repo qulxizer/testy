@@ -1,17 +1,16 @@
 package main
 
 import (
+	"context"
 	"log"
-	"net/http"
-	handler "testy/handlers"
+	"testy/server"
 )
 
 func main() {
-	mux := http.NewServeMux()
-	mux.HandleFunc("/api/test", handler.SubmitHandler)
-
-	log.Println("Server locked in at http://127.0.0.1:8090")
-	if err := http.ListenAndServe("0.0.0.0:8090", handler.CORSMiddleware(mux)); err != nil {
-		log.Fatalf("Server crashed: %v", err)
+	server, err := server.NewServer(context.Background(), "0.0.0.0:8090", "postgres://dev:dev@postgres:5432/testy?sslmode=disable")
+	if err != nil {
+		log.Fatalln(err)
+		return
 	}
+	server.Serve()
 }

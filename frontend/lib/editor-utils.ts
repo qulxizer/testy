@@ -1,14 +1,14 @@
-import runnersData from '@/data/runners.json';
-import stubsData from '@/data/stubs.json';
-import { Exercise } from '@/types';
+import runnersData from "@/data/runners.json";
+import stubsData from "@/data/stubs.json";
+import { Exercise } from "@/lib/types";
 
 const runners: Record<string, string> = runnersData;
 const stubs: Record<string, string> = stubsData;
 
 export const getInitialFiles = (exercise: Exercise): Record<string, string> => {
-  const filename = exercise.expectedFiles?.[0] || 'main.go';
+  const filename = exercise.expectedFiles?.[0] || "main.go";
 
-  if (filename.endsWith('main.go')) {
+  if (filename.endsWith("main.go")) {
     return {
       [filename]: `package main\n\nimport "github.com/01-edu/z01"\n\nfunc main() {\n\t// Write your code here\n}\n`,
     };
@@ -16,7 +16,8 @@ export const getInitialFiles = (exercise: Exercise): Record<string, string> => {
 
   // Auto-loaded prototype or fallback
   const solutionCode =
-    stubs[exercise.key] || `package piscine\n\n// Solution for ${exercise.key}\n`;
+    stubs[exercise.key] ||
+    `package piscine\n\n// Solution for ${exercise.key}\n`;
 
   const runnerCode =
     runners[exercise.key] ||
@@ -24,6 +25,6 @@ export const getInitialFiles = (exercise: Exercise): Record<string, string> => {
 
   return {
     [filename]: solutionCode,
-    'main.go': runnerCode,
+    "main.go": runnerCode,
   };
 };
