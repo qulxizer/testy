@@ -1,32 +1,46 @@
 services:
-  testy:
+  caddy:
+    image: caddy:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - frontend
+      - backend
+  backend:
     build:
-      context: .
+      context: ./backend
       dockerfile: Dockerfile
-
+      target: prod
     ports:
       - "8090:8090"
-
     volumes:
       - ./backend:/testy
       - /var/run/docker.sock:/var/run/docker.sock
       - submissions:/submissions
-
     depends_on:
       - postgres
 
-  postgres:
-    image: postgres:17-alpine
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      target: prod
+    ports:
+      - "3000:3000"
     restart: unless-stopped
-
+  postgres:
+    ports:
+    - "5432:5432"
+    image: postgres:17-alpine
     environment:
       POSTGRES_USER: dev
       POSTGRES_PASSWORD: dev
       POSTGRES_DB: testy
-
-    ports:
-      - "5432:5432"
-
     volumes:
       - pgdata:/var/lib/postgresql/data
 
@@ -34,3 +48,5 @@ volumes:
   pgdata:
   submissions:
     name: testy_submissions
+  caddy_data:
+  caddy_config:

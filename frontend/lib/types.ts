@@ -4,7 +4,7 @@ export interface Exercise {
   name: string;
   path: string;
   difficulty?: number;
-  language: string;
+  language?: string;
   expectedFiles: string[];
   allowedFunctions?: string[];
   testImage?: string;

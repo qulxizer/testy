@@ -32,9 +32,7 @@ func RunSubmission(ctx context.Context, req models.SubmissionRequest) (string, b
 	if err != nil {
 		return "", false, err
 	}
-	fmt.Println("tmpDir:", tmpDir)
-
-	// defer os.RemoveAll(tmpDir)
+	defer os.RemoveAll(tmpDir)
 
 	if err := writeSubmission(tmpDir, req); err != nil {
 		return "", false, err
@@ -130,17 +128,17 @@ func runTests(ctx context.Context, tmpDir string, exercise string, testImage str
 		"--pids-limit", "100",
 
 		"-e", "EXERCISE="+exercise,
-		"-e", "SUBMISSION="+submission,
-
 		"-v", "testy_submissions:/submissions:ro",
 
 		"--entrypoint", "sh",
 		testImage,
-
-		"-c", `
-			rm -rf /root/piscine-go
-			cp -r "/submissions/$SUBMISSION" /root/piscine-go
-			`+testCommand,
+		"-c",
+		fmt.Sprintf(`
+			rm -rf /root/student /root/piscine-go
+			cp -r /submissions/%s /root/student
+			cd /root
+			exec /usr/local/bin/entrypoint.sh
+		`, submission),
 	)
 
 	return cmd.CombinedOutput()

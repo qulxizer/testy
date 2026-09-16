@@ -49,7 +49,6 @@ export default function WorkspacePage() {
   const runTests = async () => {
     setLoading(true);
     setOutput("Running test suite...");
-
     try {
       const res = await fetch("/api/test", {
         credentials: "include",
@@ -65,14 +64,19 @@ export default function WorkspacePage() {
       });
 
       const text = await res.text();
+
       try {
         const data = JSON.parse(text);
         setOutput(data.output || "No output.");
       } catch {
         setOutput(`Server error (${res.status}):\n${text}`);
       }
-    } catch (err: any) {
-      setOutput(`Failed to reach test runner: ${err?.message || err}`);
+    } catch (err: unknown) {
+      if (err instanceof Error) {
+        setOutput(`Failed to reach test runner: ${err.message}`);
+      } else {
+        setOutput(`Failed to reach test runner: ${String(err)}`);
+      }
     } finally {
       setLoading(false);
     }
