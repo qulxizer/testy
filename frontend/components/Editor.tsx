@@ -18,11 +18,12 @@ export function EditorPane({
   onCodeChange,
 }: EditorPaneProps) {
   const isApp = solutionFilename === "main.go";
+
   return (
-    <div className="flex flex-1 flex-col border-r border-zinc-800">
+    <div className="flex h-full w-full flex-col border-r border-zinc-800">
       {/* Tabs only show up for function quests */}
       {!isApp && (
-        <div className="flex h-9 border-b border-zinc-800 bg-zinc-900/40">
+        <div className="flex h-9 shrink-0 border-b border-zinc-800 bg-zinc-900/40">
           {Object.keys(files).map((fileName) => {
             const isActive = activeTab === fileName;
             return (
@@ -31,7 +32,7 @@ export function EditorPane({
                 onClick={() => onTabChange(fileName)}
                 className={`flex items-center gap-2 border-r border-zinc-800 px-4 text-xs font-mono transition-colors ${
                   isActive
-                    ? "bg-zinc-950 font-medium text-emerald-400 border-b-2 border-b-emerald-500"
+                    ? "border-b-2 border-b-emerald-500 bg-zinc-950 font-medium text-emerald-400"
                     : "text-zinc-400 hover:bg-zinc-800/30 hover:text-zinc-200"
                 }`}
               >
@@ -42,7 +43,8 @@ export function EditorPane({
         </div>
       )}
 
-      <div className="flex-1">
+      {/* Editor Container */}
+      <div className="relative flex-1 min-h-0 w-full">
         <Editor
           height="100%"
           defaultLanguage="go"
@@ -55,6 +57,7 @@ export function EditorPane({
             fontSize: 14,
             tabSize: 4,
             insertSpaces: false,
+            automaticLayout: true, // Re-computes size smoothly on panel drag
           }}
         />
       </div>

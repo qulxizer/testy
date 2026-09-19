@@ -1,21 +1,21 @@
 services:
-  caddy:
-    image: caddy:alpine
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:ro
-      - caddy_data:/data
-      - caddy_config:/config
-    depends_on:
-      - frontend
-      - backend
+  # caddy:
+  #   image: caddy:alpine
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - ./Caddyfile:/etc/caddy/Caddyfile:ro
+  #     - caddy_data:/data
+  #     - caddy_config:/config
+  #   depends_on:
+  #     - frontend
+  #     - backend
   backend:
     build:
       context: ./backend
       dockerfile: Dockerfile
-      target: prod
+      target: dev
     ports:
       - "8090:8090"
     volumes:
@@ -25,14 +25,21 @@ services:
     depends_on:
       - postgres
 
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-      target: prod
-    ports:
-      - "3000:3000"
-    restart: unless-stopped
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #     target: dev
+  #   ports:
+  #     - "3000:3000"
+  #   restart: unless-stopped
+  #   volumes:
+  #     - ./frontend:/app
+  #     - /app/node_modules
+  #     - /app/.next
+  #   environment:
+  #     - WATCHPACK_POLLING=true # uncomment if hot reload misses changes (common on Windows/WSL)
+
   postgres:
     ports:
     - "5432:5432"

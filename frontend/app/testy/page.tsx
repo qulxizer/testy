@@ -2,14 +2,20 @@
 
 import { useState } from "react";
 import exercisesData from "@/data/go_exercises.json";
+import subjectsData from "@/data/subjects.json";
+import auditsData from "@/data/audits.json";
 import { Exercise } from "@/lib/types";
 import { getInitialFiles } from "@/lib/editor-utils";
 import { Header } from "@/components/Header";
 import { Sidebar } from "@/components/Sidebar";
+import { Subject } from "@/components/Subject";
 import { EditorPane } from "@/components/Editor";
 import { OutputPane } from "@/components/Output";
+import { Group, Panel, Separator } from "react-resizable-panels";
 
 const exercises: Exercise[] = exercisesData as Exercise[];
+const subjects: Record<string, string> = subjectsData;
+const audits: Record<string, string> = auditsData;
 
 const defaultExercise: Exercise = exercises[0] || {
   id: 1,
@@ -96,14 +102,44 @@ export default function WorkspacePage() {
           selectedExerciseKey={selectedExercise.key}
           onSelectExercise={handleSelectExercise}
         />
-        <EditorPane
-          files={files}
-          activeTab={activeTab}
-          solutionFilename={solutionFilename}
-          onTabChange={setActiveTab}
-          onCodeChange={handleCodeChange}
-        />
-        <OutputPane output={output} />
+
+        <Group orientation="horizontal" className="flex-1">
+          {/* Subject / Audit Pane */}
+          <Panel defaultSize="30%" minSize="20%">
+            <div className="h-full overflow-hidden">
+              <Subject
+                subject={
+                  subjects[selectedExercise.key] || "# Subject not found"
+                }
+                audit={audits[selectedExercise.key]}
+              />
+            </div>
+          </Panel>
+
+          <Separator className="w-1 bg-zinc-800 transition-colors hover:bg-emerald-500 cursor-col-resize" />
+
+          {/* Monaco Editor Pane */}
+          <Panel defaultSize="45%" minSize="25%">
+            <div className="h-full overflow-hidden">
+              <EditorPane
+                files={files}
+                activeTab={activeTab}
+                solutionFilename={solutionFilename}
+                onTabChange={setActiveTab}
+                onCodeChange={handleCodeChange}
+              />
+            </div>
+          </Panel>
+
+          <Separator className="w-1 bg-zinc-800 transition-colors hover:bg-emerald-500 cursor-col-resize" />
+
+          {/* Test Runner Output Pane */}
+          <Panel defaultSize="25%" minSize="15%">
+            <div className="h-full overflow-hidden">
+              <OutputPane output={output} />
+            </div>
+          </Panel>
+        </Group>
       </div>
     </div>
   );
