@@ -30,13 +30,14 @@ services:
       target: prod
     environment:
       - PORT=3000
-      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-/api}
       - INTERNAL_BACKEND_URL=http://backend:8090
     expose:
       - "3000"
     networks:
       - internal_net
       - coolify
+    depends_on:
+      - backend
     restart: unless-stopped
 
   postgres:
