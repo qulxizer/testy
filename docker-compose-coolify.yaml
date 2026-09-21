@@ -16,9 +16,6 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - submissions:/submissions
-    networks:
-      - internal_net
-      - coolify
     depends_on:
       - postgres
     restart: unless-stopped
@@ -33,9 +30,6 @@ services:
       - INTERNAL_BACKEND_URL=http://backend:8090
     expose:
       - "3000"
-    networks:
-      - internal_net
-      - coolify
     depends_on:
       - backend
     restart: unless-stopped
@@ -48,15 +42,7 @@ services:
       POSTGRES_DB: ${POSTGRES_DB:-testy}
     volumes:
       - pgdata:/var/lib/postgresql/data
-    networks:
-      - internal_net
     restart: unless-stopped
-
-networks:
-  internal_net:
-    driver: bridge
-  coolify:
-    external: true
 
 volumes:
   pgdata:
