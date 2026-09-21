@@ -51,7 +51,6 @@ func (s *Server) Serve() {
 
 	log.Println("listening: http://127.0.0.1:8090")
 
-	// FIX 2: Pass your custom 'mux' instead of 'nil' so Go knows your routes.
 	if err := http.ListenAndServe("0.0.0.0:8090", mux); err != nil {
 		log.Fatalf("err: %v", err)
 	}
