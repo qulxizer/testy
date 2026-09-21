@@ -5,19 +5,19 @@ services:
       dockerfile: Dockerfile
       target: prod
     environment:
-      - PORT=8090
-      - DB_HOST=postgres
-      - DB_PORT=5432
-      - DB_USER=${POSTGRES_USER:-dev}
-      - DB_PASSWORD=${POSTGRES_PASSWORD:-dev}
-      - DB_NAME=${POSTGRES_DB:-testy}
+      PORT: 8090
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: ${POSTGRES_USER:-dev}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:-dev}
+      DB_NAME: ${POSTGRES_DB:-testy}
     expose:
       - "8090"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - submissions:/submissions
     networks:
-      - default
+      - app
     depends_on:
       - postgres
     restart: unless-stopped
@@ -28,13 +28,12 @@ services:
       dockerfile: Dockerfile
       target: prod
     environment:
-      - PORT=3000
-      - INTERNAL_BACKEND_URL=http://backend:8090
-    expose:
-      - "3000"
+      PORT: 3000
+      INTERNAL_BACKEND_URL: http://backend:8090
+    ports:
+      - "3010:3000"
     networks:
-      - default
-      - coolify
+      - app
     depends_on:
       - backend
     restart: unless-stopped
@@ -48,14 +47,12 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
     networks:
-      - default
+      - app
     restart: unless-stopped
 
 networks:
-  default:
+  app:
     driver: bridge
-  coolify:
-    external: true
 
 volumes:
   pgdata:
